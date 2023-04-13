@@ -23,9 +23,9 @@ git flow 전략을 사용합니다.
 - hotfix : 출시 버전에서 발생한 버그를 수정 하는 브랜치
 
 ```bash
-feature/(ROS)control
-feature/(RTOS)motor
-feature/(FE)test
+feature/ROS_control
+feature/RTOS_motor
+feature/FE_test
 ```
 
 커밋 메시지는 한글로 자유롭게
