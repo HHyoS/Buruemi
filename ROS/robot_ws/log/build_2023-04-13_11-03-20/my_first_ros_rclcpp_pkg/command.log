@@ -1,0 +1,2 @@
+Invoking command in '/home/ssafy/robot_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ssafy/robot_ws/build/my_first_ros_rclcpp_pkg -- -j6 -l6
+Invoked command in '/home/ssafy/robot_ws/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ssafy/robot_ws/build/my_first_ros_rclcpp_pkg -- -j6 -l6
