@@ -1,0 +1,24 @@
+[1.385s] Invoking command in '/home/ssafy/robot_ws/build/ros2env': PYTHONPATH=/home/ssafy/robot_ws/build/ros2env/prefix_override:/home/ssafy/robot_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ssafy/robot_ws/build/ros2env/build --no-deps install_data
+[1.690s] running develop
+[1.873s] running egg_info
+[1.873s] creating ros2env.egg-info
+[1.874s] writing ros2env.egg-info/PKG-INFO
+[1.875s] writing dependency_links to ros2env.egg-info/dependency_links.txt
+[1.875s] writing entry points to ros2env.egg-info/entry_points.txt
+[1.875s] writing requirements to ros2env.egg-info/requires.txt
+[1.875s] writing top-level names to ros2env.egg-info/top_level.txt
+[1.876s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.923s] reading manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.923s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.974s] running build_ext
+[1.977s] Creating /home/ssafy/robot_ws/install/ros2env/lib/python3.8/site-packages/site.py
+[1.979s] Creating /home/ssafy/robot_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+[1.980s] 
+[1.981s] Installed /home/ssafy/robot_ws/build/ros2env
+[1.981s] running install_data
+[1.981s] creating /home/ssafy/robot_ws/install/ros2env/share/ament_index
+[1.981s] creating /home/ssafy/robot_ws/install/ros2env/share/ament_index/resource_index
+[1.981s] creating /home/ssafy/robot_ws/install/ros2env/share/ament_index/resource_index/packages
+[1.983s] copying resource/ros2env -> /home/ssafy/robot_ws/install/ros2env/share/ament_index/resource_index/packages
+[1.983s] copying package.xml -> /home/ssafy/robot_ws/install/ros2env/share/ros2env
+[2.081s] Invoked command in '/home/ssafy/robot_ws/build/ros2env' returned '0': PYTHONPATH=/home/ssafy/robot_ws/build/ros2env/prefix_override:/home/ssafy/robot_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ssafy/robot_ws/build/ros2env/build --no-deps install_data
