@@ -1,6 +1,0 @@
-CMake Error at CMakeLists.txt:39:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "[출처]".
-
-
--- Configuring incomplete, errors occurred!

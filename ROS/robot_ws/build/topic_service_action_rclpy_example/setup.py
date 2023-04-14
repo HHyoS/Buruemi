@@ -1,1 +1,0 @@
-/home/ssafy/robot_ws/src/ros2-seminar-examples/topic_service_action_rclpy_example/setup.py
