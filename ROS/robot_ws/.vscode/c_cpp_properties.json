@@ -1,20 +1,17 @@
 {
   "configurations": [
     {
-      "browse": {
-        "databaseFilename": "${default}",
-        "limitSymbolsToIncludedHeaders": false
-      },
+      "name": "Linux",
       "includePath": [
-        "/opt/ros/foxy/include/**",
-        "/home/ssafy/robot_ws/src/my_first_ros_rclcpp_pkg/include/**",
-        "/usr/include/**"
+        "${default}",
+        "${workspaceFolder}/**",
+        "/opt/ros/dashing/include/**"
       ],
-      "name": "ROS",
-      "intelliSenseMode": "gcc-x64",
-      "compilerPath": "/usr/bin/gcc",
-      "cStandard": "gnu11",
-      "cppStandard": "c++14"
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c99",
+      "cppStandard": "c++14",
+      "intelliSenseMode": "linux-gcc-x64"
     }
   ],
   "version": 4
