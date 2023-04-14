@@ -1,0 +1,26 @@
+[1.457s] Invoking command in '/home/ssafy/robot_ws/build/my_first_ros_rclpy_pkg': PYTHONPATH=/home/ssafy/robot_ws/build/my_first_ros_rclpy_pkg/prefix_override:/home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ssafy/robot_ws/build/my_first_ros_rclpy_pkg/build --no-deps install_data
+[2.053s] running develop
+[2.054s] running egg_info
+[2.054s] creating my_first_ros_rclpy_pkg.egg-info
+[2.054s] writing my_first_ros_rclpy_pkg.egg-info/PKG-INFO
+[2.054s] writing dependency_links to my_first_ros_rclpy_pkg.egg-info/dependency_links.txt
+[2.055s] writing entry points to my_first_ros_rclpy_pkg.egg-info/entry_points.txt
+[2.055s] writing requirements to my_first_ros_rclpy_pkg.egg-info/requires.txt
+[2.055s] writing top-level names to my_first_ros_rclpy_pkg.egg-info/top_level.txt
+[2.055s] writing manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[2.084s] reading manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[2.085s] writing manifest file 'my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[2.138s] running build_ext
+[2.138s] Creating /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages/site.py
+[2.138s] Creating /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages/my-first-ros-rclpy-pkg.egg-link (link to .)
+[2.138s] Installing helloworld_publisher script to /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/lib/my_first_ros_rclpy_pkg
+[2.140s] Installing helloworld_subscriber script to /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/lib/my_first_ros_rclpy_pkg
+[2.140s] 
+[2.140s] Installed /home/ssafy/robot_ws/build/my_first_ros_rclpy_pkg
+[2.140s] running install_data
+[2.141s] creating /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/share/ament_index
+[2.141s] creating /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/share/ament_index/resource_index
+[2.141s] creating /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/share/ament_index/resource_index/packages
+[2.141s] copying resource/my_first_ros_rclpy_pkg -> /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/share/ament_index/resource_index/packages
+[2.141s] copying package.xml -> /home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg
+[2.461s] Invoked command in '/home/ssafy/robot_ws/build/my_first_ros_rclpy_pkg' returned '0': PYTHONPATH=/home/ssafy/robot_ws/build/my_first_ros_rclpy_pkg/prefix_override:/home/ssafy/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ssafy/robot_ws/build/my_first_ros_rclpy_pkg/build --no-deps install_data

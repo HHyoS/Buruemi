@@ -1,0 +1,45 @@
+<!-- 클라이언트 코드 (index.html) -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>주문 시스템</title>
+  </head>
+  <body>
+    <h1>주문 시스템</h1>
+    <p>대기순번: <span id="waitingNumber">0</span></p>
+    <button id="orderButton">주문</button>
+    <button id="cancelButton">취소</button>
+    <ul id="queueList"></ul>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    // 주문 요청 처리
+    document.getElementById("orderButton").addEventListener("click", () => {
+      socket.emit("order");
+    });
+
+    // 주문 취소 처리
+    document.getElementById("cancelButton").addEventListener("click", () => {
+      socket.emit("cancel");
+    });
+
+    // 대기순번 업데이트 처리
+    socket.on("waiting", (waitingNumber) => {
+      document.getElementById("waitingNumber").innerText = waitingNumber;
+    });
+
+    // 대기열 업데이트 처리
+    socket.on("update", (queue) => {
+      const queueList = document.getElementById("queueList");
+      queueList.innerHTML = "";
+      queue.forEach((clientId) => {
+        const item = document.createElement("li");
+        item.innerText = clientId;
+        queueList.appendChild(item);
+      });
+    });
+  </script>
+</html>
