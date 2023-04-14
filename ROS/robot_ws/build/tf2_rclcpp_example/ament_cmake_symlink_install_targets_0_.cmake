@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ssafy/robot_ws/build/tf2_rclcpp_example/broadcaster" "/home/ssafy/robot_ws/build/tf2_rclcpp_example/listener" "/home/ssafy/robot_ws/build/tf2_rclcpp_example/static_broadcaster" "TARGETS" "broadcaster" "listener" "static_broadcaster" "DESTINATION" "lib/tf2_rclcpp_example")

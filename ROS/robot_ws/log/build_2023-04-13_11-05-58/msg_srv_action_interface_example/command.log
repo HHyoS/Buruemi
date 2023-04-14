@@ -1,1 +1,0 @@
-Invoking command in '/home/ssafy/robot_ws/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ssafy/robot_ws/build/msg_srv_action_interface_example -- -j6 -l6

@@ -1,8 +1,0 @@
-{
-  "package_name": "msg_srv_action_interface_example",
-  "non_idl_tuples": [
-    "/home/ssafy/robot_ws/src/ros2-seminar-examples/msg_srv_action_interface_example:msg/ArithmeticArgument.msg",
-    "/home/ssafy/robot_ws/src/ros2-seminar-examples/msg_srv_action_interface_example:srv/ArithmeticOperator.srv",
-    "/home/ssafy/robot_ws/src/ros2-seminar-examples/msg_srv_action_interface_example:action/ArithmeticChecker.action"
-  ]
-}
