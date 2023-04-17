@@ -1,0 +1,88 @@
+[0.169s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node
+[0.885s] -- The C compiler identification is GNU 7.5.0
+[0.886s] -- The CXX compiler identification is GNU 7.5.0
+[0.886s] -- Check for working C compiler: /usr/bin/cc
+[0.887s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.887s] -- Detecting C compiler ABI info
+[0.887s] -- Detecting C compiler ABI info - done
+[0.887s] -- Detecting C compile features
+[1.111s] -- Detecting C compile features - done
+[1.114s] -- Check for working CXX compiler: /usr/bin/c++
+[1.287s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.288s] -- Detecting CXX compiler ABI info
+[1.473s] -- Detecting CXX compiler ABI info - done
+[1.477s] -- Detecting CXX compile features
+[2.194s] -- Detecting CXX compile features - done
+[2.198s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.249s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.249s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.694s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.745s] -- Found dynamixel_sdk: 3.7.40 (/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.745s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[2.769s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.871s] -- Found message_filters: 3.1.3 (/opt/ros/dashing/share/message_filters/cmake)
+[2.892s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[2.919s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.949s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.955s] -- Looking for pthread.h
+[3.092s] -- Looking for pthread.h - found
+[3.092s] -- Looking for pthread_create
+[3.237s] -- Looking for pthread_create - not found
+[3.237s] -- Looking for pthread_create in pthreads
+[3.353s] -- Looking for pthread_create in pthreads - not found
+[3.353s] -- Looking for pthread_create in pthread
+[3.490s] -- Looking for pthread_create in pthread - found
+[3.492s] -- Found Threads: TRUE  
+[3.553s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[3.587s] -- Found std_srvs: 0.7.1 (/opt/ros/dashing/share/std_srvs/cmake)
+[3.601s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[3.615s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[3.722s] -- Found turtlebot3_msgs: 2.2.1 (/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[4.404s] -- Configuring done
+[4.520s] -- Generating done
+[4.524s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node
+[4.535s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node
+[4.537s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node -- -j6 -l6
+[4.621s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[4.777s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[4.777s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[5.798s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[6.843s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[7.741s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[8.251s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[8.429s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[9.498s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[11.879s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[12.368s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[19.115s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[22.279s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[22.603s] [ 85%] Built target turtlebot3_node_lib
+[22.623s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[22.698s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[25.594s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[27.090s] [100%] Built target turtlebot3_ros
+[27.113s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node -- -j6 -l6
+[27.197s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node --target install -- -j6 -l6
+[27.329s] [ 85%] Built target turtlebot3_node_lib
+[27.384s] [100%] Built target turtlebot3_ros
+[27.419s] [36mInstall the project...[0m
+[27.435s] -- Install configuration: ""
+[27.436s] -- Execute custom install script
+[27.446s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[27.462s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[27.480s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[27.499s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[27.516s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[27.534s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[27.552s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[27.569s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[27.586s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[27.616s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[27.633s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[27.651s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[27.669s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.685s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[27.708s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[27.724s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[27.750s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_node --target install -- -j6 -l6

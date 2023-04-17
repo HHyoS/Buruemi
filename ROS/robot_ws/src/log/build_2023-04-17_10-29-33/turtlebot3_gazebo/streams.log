@@ -1,0 +1,273 @@
+[0.100s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo
+[0.206s] -- The C compiler identification is GNU 7.5.0
+[0.308s] -- The CXX compiler identification is GNU 7.5.0
+[0.315s] -- Check for working C compiler: /usr/bin/cc
+[0.450s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.451s] -- Detecting C compiler ABI info
+[0.579s] -- Detecting C compiler ABI info - done
+[0.589s] -- Detecting C compile features
+[0.945s] -- Detecting C compile features - done
+[0.949s] -- Check for working CXX compiler: /usr/bin/c++
+[1.075s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.076s] -- Detecting CXX compiler ABI info
+[1.222s] -- Detecting CXX compiler ABI info - done
+[1.231s] -- Detecting CXX compile features
+[1.774s] -- Detecting CXX compile features - done
+[1.779s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.819s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.819s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.161s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.220s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.227s] -- Checking for module 'bullet>=2.82'
+[2.248s] --   Found bullet, version 2.87
+[2.312s] -- Found Simbody: /usr/include/simbody  
+[2.396s] -- Looking for pthread.h
+[2.509s] -- Looking for pthread.h - found
+[2.509s] -- Looking for pthread_create
+[2.649s] -- Looking for pthread_create - not found
+[2.650s] -- Looking for pthread_create in pthreads
+[2.747s] -- Looking for pthread_create in pthreads - not found
+[2.747s] -- Looking for pthread_create in pthread
+[2.858s] -- Looking for pthread_create in pthread - found
+[2.859s] -- Found Threads: TRUE  
+[2.917s] -- Boost version: 1.65.1
+[2.917s] -- Found the following Boost libraries:
+[2.917s] --   thread
+[2.917s] --   system
+[2.918s] --   filesystem
+[2.918s] --   program_options
+[2.918s] --   regex
+[2.918s] --   iostreams
+[2.918s] --   date_time
+[2.918s] --   chrono
+[2.918s] --   atomic
+[2.945s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+[2.983s] -- Boost version: 1.65.1
+[2.985s] -- Looking for OGRE...
+[2.986s] -- OGRE_PREFIX_WATCH changed.
+[2.993s] -- Checking for module 'OGRE'
+[3.017s] --   Found OGRE, version 1.9.0
+[3.074s] -- Found Ogre Ghadamon (1.9.0)
+[3.089s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.150s] -- Looking for OGRE_Paging...
+[3.160s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.160s] -- Looking for OGRE_Terrain...
+[3.168s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.168s] -- Looking for OGRE_Property...
+[3.177s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.177s] -- Looking for OGRE_RTShaderSystem...
+[3.187s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.187s] -- Looking for OGRE_Volume...
+[3.195s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.195s] -- Looking for OGRE_Overlay...
+[3.204s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.436s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+[3.448s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.454s] -- Checking for module 'libzmq >= 4'
+[3.474s] --   Found libzmq , version 4.2.5
+[3.527s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.537s] -- Checking for module 'uuid'
+[3.557s] --   Found uuid, version 2.31.1
+[3.610s] -- Found UUID: TRUE  
+[3.625s] -- Checking for module 'tinyxml2'
+[3.645s] --   Found tinyxml2, version 6.0.0
+[3.698s] -- Looking for dlfcn.h - found
+[3.699s] -- Looking for libdl - found
+[3.701s] -- Found DL: TRUE  
+[3.701s] -- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+[3.815s] -- Checking for module 'gts'
+[3.837s] --   Found gts, version 0.7.6
+[3.903s] -- Found GTS: TRUE  
+[3.910s] -- Checking for module 'libswscale'
+[3.932s] --   Found libswscale, version 4.8.100
+[3.995s] -- Found SWSCALE: TRUE  
+[4.004s] -- Checking for module 'libavdevice >= 56.4.100'
+[4.025s] --   Found libavdevice , version 57.10.100
+[4.086s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[4.092s] -- Checking for module 'libavformat'
+[4.110s] --   Found libavformat, version 57.83.100
+[4.167s] -- Found AVFORMAT: TRUE  
+[4.174s] -- Checking for module 'libavcodec'
+[4.192s] --   Found libavcodec, version 57.107.100
+[4.249s] -- Found AVCODEC: TRUE  
+[4.255s] -- Checking for module 'libavutil'
+[4.275s] --   Found libavutil, version 55.78.100
+[4.325s] -- Found AVUTIL: TRUE  
+[4.333s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0") 
+[4.345s] -- Checking for module 'jsoncpp'
+[4.363s] --   Found jsoncpp, version 1.7.4
+[4.417s] -- Found JSONCPP: TRUE  
+[4.426s] -- Checking for module 'libzip'
+[4.446s] --   Found libzip, version 1.1.2
+[4.499s] -- Found ZIP: TRUE  
+[4.499s] -- Found gazebo_ros_pkgs: 3.3.5 (/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/cmake)
+[4.502s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[4.532s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[4.606s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[4.627s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[4.655s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[4.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.721s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[4.738s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[4.749s] -- Found turtlebot3: 2.1.4 (/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3/share/turtlebot3/cmake)
+[4.998s] -- Configuring done
+[5.099s] -- Generating done
+[5.103s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo
+[5.110s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo
+[5.115s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo -- -j6 -l6
+[5.181s] [35m[1mScanning dependencies of target obstacle1[0m
+[5.181s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[5.181s] [35m[1mScanning dependencies of target obstacle2[0m
+[5.181s] [35m[1mScanning dependencies of target obstacles[0m
+[5.245s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[5.345s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[5.351s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[5.351s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[11.064s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[11.446s] [ 62%] Built target turtlebot3_drive
+[15.725s] [ 75%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[15.824s] [ 87%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[15.844s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[16.305s] [100%] Built target obstacle2
+[16.421s] [100%] Built target obstacles
+[16.429s] [100%] Built target obstacle1
+[16.458s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo -- -j6 -l6
+[16.518s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo --target install -- -j6 -l6
+[16.630s] [ 25%] Built target turtlebot3_drive
+[16.644s] [ 50%] Built target obstacle1
+[16.645s] [ 75%] Built target obstacles
+[16.646s] [100%] Built target obstacle2
+[16.683s] [36mInstall the project...[0m
+[16.700s] -- Install configuration: ""
+[16.700s] -- Execute custom install script
+[16.701s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[16.720s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[16.737s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[16.754s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+[16.771s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[16.788s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[16.806s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[16.823s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[16.840s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[16.856s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[16.891s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+[16.908s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+[16.923s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+[16.941s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+[16.958s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+[16.975s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+[16.993s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+[17.010s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+[17.026s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+[17.044s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+[17.067s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+[17.095s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+[17.121s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+[17.139s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+[17.159s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+[17.176s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+[17.191s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+[17.209s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+[17.228s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+[17.244s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+[17.263s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+[17.281s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+[17.302s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+[17.320s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+[17.337s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+[17.357s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+[17.376s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+[17.396s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+[17.413s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+[17.430s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+[17.446s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+[17.465s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+[17.483s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+[17.503s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+[17.519s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+[17.537s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+[17.556s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+[17.574s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+[17.592s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+[17.610s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[17.627s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[17.645s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[17.664s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[17.683s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[17.704s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[17.723s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[17.743s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[17.762s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[17.780s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[17.797s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[17.815s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[17.833s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[17.853s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[17.872s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[17.891s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[17.910s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[17.928s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[17.956s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[17.975s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[17.993s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[18.010s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[18.027s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[18.042s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[18.060s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[18.078s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[18.097s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[18.119s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[18.143s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[18.163s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[18.185s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[18.206s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[18.224s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[18.242s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[18.260s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4.sdf
+[18.279s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[18.295s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[18.314s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[18.334s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[18.358s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[18.376s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[18.392s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[18.413s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[18.435s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[18.452s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[18.469s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[18.488s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+[18.506s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+[18.523s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+[18.541s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+[18.559s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+[18.579s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+[18.600s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+[18.620s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+[18.641s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+[18.665s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+[18.683s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+[18.704s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+[18.723s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+[18.741s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+[18.761s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+[18.780s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[18.803s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[18.827s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[18.847s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[18.867s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[18.884s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[18.903s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[18.921s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[18.940s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[18.958s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[18.980s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[18.998s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[19.015s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[19.034s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[19.051s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[19.069s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.086s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.105s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[19.123s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[19.140s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[19.182s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_gazebo --target install -- -j6 -l6

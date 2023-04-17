@@ -1,0 +1,90 @@
+[0.052s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry
+[0.301s] -- The C compiler identification is GNU 7.5.0
+[0.646s] -- The CXX compiler identification is GNU 7.5.0
+[0.649s] -- Check for working C compiler: /usr/bin/cc
+[1.004s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.004s] -- Detecting C compiler ABI info
+[1.318s] -- Detecting C compiler ABI info - done
+[1.319s] -- Detecting C compile features
+[2.833s] -- Detecting C compile features - done
+[2.833s] -- Check for working CXX compiler: /usr/bin/c++
+[3.300s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.300s] -- Detecting CXX compiler ABI info
+[3.742s] -- Detecting CXX compiler ABI info - done
+[3.743s] -- Detecting CXX compile features
+[5.576s] -- Detecting CXX compile features - done
+[5.578s] -- Found ament_cmake_python: 0.7.6 (/opt/ros/dashing/share/ament_cmake_python/cmake)
+[5.580s] -- Found ament_cmake_ros: 0.7.0 (/opt/ros/dashing/share/ament_cmake_ros/cmake)
+[5.669s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[5.670s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.098s] -- Found OpenCV: /usr (found version "3.2.0") found components:  calib3d core highgui imgproc 
+[6.109s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[6.132s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[6.229s] -- Found ament_cmake_gtest: 0.7.6 (/opt/ros/dashing/share/ament_cmake_gtest/cmake)
+[6.232s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.239s] -- Looking for pthread.h
+[6.382s] -- Looking for pthread.h - found
+[6.382s] -- Looking for pthread_create
+[6.684s] -- Looking for pthread_create - not found
+[6.684s] -- Check if compiler accepts -pthread
+[6.946s] -- Check if compiler accepts -pthread - yes
+[6.948s] -- Found Threads: TRUE  
+[7.106s] -- Configuring done
+[7.146s] -- Generating done
+[7.149s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry
+[7.153s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry
+[7.157s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry -- -j6 -l6
+[7.239s] [35m[1mScanning dependencies of target gtest[0m
+[7.246s] [35m[1mScanning dependencies of target gtest_main[0m
+[7.265s] [35m[1mScanning dependencies of target image_geometry[0m
+[7.293s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.315s] [ 22%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[7.320s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[7.326s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.699s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.830s] [ 55%] Built target gtest_main
+[8.889s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[9.261s] [ 66%] Built target image_geometry
+[15.783s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.066s] [ 77%] Built target gtest
+[16.156s] [35m[1mScanning dependencies of target image_geometry-utest[0m
+[16.247s] [ 88%] [32mBuilding CXX object test/CMakeFiles/image_geometry-utest.dir/utest.cpp.o[0m
+[18.108s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[18.677s] [100%] Built target image_geometry-utest
+[18.704s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry -- -j6 -l6
+[19.050s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry --target install -- -j6 -l6
+[19.465s] [ 22%] Built target gtest_main
+[19.467s] [ 44%] Built target gtest
+[19.484s] [ 77%] Built target image_geometry
+[19.594s] [100%] Built target image_geometry-utest
+[19.667s] [36mInstall the project...[0m
+[19.682s] -- Install configuration: ""
+[19.682s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[19.682s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry
+[19.683s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry/__init__.py
+[19.684s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry/cameramodels.py
+[19.739s] Listing '/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry'...
+[19.739s] Compiling '/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry/__init__.py'...
+[19.739s] Compiling '/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry/cameramodels.py'...
+[19.756s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/include/image_geometry
+[19.756s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/include/image_geometry/visibility_control.hpp
+[19.756s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[19.757s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[19.757s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/libimage_geometry.so
+[19.757s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/libimage_geometry.so" to ""
+[19.757s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/environment/library_path.sh
+[19.757s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[19.758s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[19.758s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[19.758s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[19.758s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[19.759s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/package.xml
+[19.768s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry --target install -- -j6 -l6

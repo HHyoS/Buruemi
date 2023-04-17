@@ -1,0 +1,53 @@
+[0.035s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry
+[0.050s] -- Found ament_cmake_python: 0.7.6 (/opt/ros/dashing/share/ament_cmake_python/cmake)
+[0.051s] -- Found ament_cmake_ros: 0.7.0 (/opt/ros/dashing/share/ament_cmake_ros/cmake)
+[0.091s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.341s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.358s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.370s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.434s] -- Found ament_cmake_gtest: 0.7.6 (/opt/ros/dashing/share/ament_cmake_gtest/cmake)
+[0.435s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.580s] -- Configuring done
+[0.611s] -- Generating done
+[0.614s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry
+[0.620s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry
+[0.625s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry -- -j6 -l6
+[0.733s] [ 11%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[0.735s] [ 33%] Built target gtest
+[0.741s] [ 55%] Built target gtest_main
+[0.844s] [ 77%] Built target image_geometry
+[0.902s] [ 88%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[1.132s] [100%] Built target image_geometry-utest
+[1.146s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry -- -j6 -l6
+[1.188s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry --target install -- -j6 -l6
+[1.262s] [ 22%] Built target gtest_main
+[1.275s] [ 55%] Built target image_geometry
+[1.277s] [ 77%] Built target gtest
+[1.310s] [100%] Built target image_geometry-utest
+[1.339s] [36mInstall the project...[0m
+[1.353s] -- Install configuration: ""
+[1.354s] -- Execute custom install script
+[1.354s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[1.372s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry/__init__.py
+[1.389s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry/cameramodels.py
+[1.411s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[1.425s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[1.438s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/include/image_geometry/visibility_control.hpp
+[1.457s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/libimage_geometry.so
+[1.469s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/environment/library_path.sh
+[1.480s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[1.491s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[1.503s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[1.527s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[1.537s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[1.547s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[1.557s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[1.570s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[1.581s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[1.592s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.613s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.632s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[1.633s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[1.642s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/share/image_geometry/package.xml
+[1.699s] Listing '/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry'...
+[1.718s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/image_geometry --target install -- -j6 -l6

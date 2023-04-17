@@ -1,0 +1,35 @@
+[1.680s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example/prefix_override:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example/build --no-deps install_data
+[2.234s] /home/iju/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.234s]   % (opt, underscore_opt)
+[2.344s] running develop
+[2.345s] /home/iju/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.345s]   EasyInstallDeprecationWarning,
+[2.348s] /home/iju/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.348s]   setuptools.SetuptoolsDeprecationWarning,
+[2.449s] /home/iju/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[2.450s]   PkgResourcesDeprecationWarning,
+[2.628s] running egg_info
+[2.628s] creating turtlebot3_example.egg-info
+[2.628s] writing turtlebot3_example.egg-info/PKG-INFO
+[2.628s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[2.629s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[2.629s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[2.629s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[2.629s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.633s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.634s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.637s] running build_ext
+[2.638s] Creating /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages/turtlebot3-example.egg-link (link to .)
+[2.641s] Installing turtlebot3_obstacle_detection script to /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[2.641s] Installing turtlebot3_patrol_client script to /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[2.642s] Installing turtlebot3_patrol_server script to /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[2.642s] Installing turtlebot3_position_control script to /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[2.642s] 
+[2.643s] Installed /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example
+[2.643s] running install_data
+[2.643s] creating /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/share/ament_index
+[2.643s] creating /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/share/ament_index/resource_index
+[2.643s] creating /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2.644s] copying resource/turtlebot3_example -> /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2.644s] copying package.xml -> /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/share/turtlebot3_example
+[2.704s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example/prefix_override:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example/build --no-deps install_data

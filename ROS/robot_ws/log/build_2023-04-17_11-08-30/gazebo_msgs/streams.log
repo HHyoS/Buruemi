@@ -1,0 +1,714 @@
+[0.081s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs
+[0.112s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.143s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.143s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.421s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.421s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.429s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.456s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.460s] -- Found trajectory_msgs: 0.7.1 (/opt/ros/dashing/share/trajectory_msgs/cmake)
+[0.477s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.629s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.413s] -- Found ament_cmake_cppcheck: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+[1.414s] -- Found ament_cmake_cpplint: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+[1.416s] -- Found ament_cmake_uncrustify: 0.7.12 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+[1.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.015s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.060s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[2.060s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[2.127s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.127s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[2.127s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[2.387s] -- Found ament_cmake_flake8: 0.7.12 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+[2.388s] -- Found ament_cmake_pep257: 0.7.12 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+[2.433s] -- Configuring done
+[2.794s] -- Generating done
+[2.799s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs
+[2.807s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs
+[2.812s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs -- -j6 -l6
+[2.923s] [  0%] Built target gazebo_msgs__cpp
+[2.935s] [  0%] [32m[1mLinking C shared library libgazebo_msgs__rosidl_generator_c.so[0m
+[2.996s] [  0%] [32m[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_cpp.so[0m
+[3.008s] [  0%] [32m[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.018s] [ 12%] Built target gazebo_msgs__rosidl_generator_c
+[3.039s] [ 13%] [32m[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.148s] [ 14%] [32m[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_c.so[0m
+[3.173s] [ 26%] Built target gazebo_msgs__rosidl_typesupport_cpp
+[3.182s] [ 27%] [32m[1mLinking C shared library libgazebo_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.213s] [ 39%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_cpp
+[3.226s] [ 51%] Built target gazebo_msgs__rosidl_typesupport_introspection_cpp
+[3.259s] [ 63%] Built target gazebo_msgs__rosidl_typesupport_c
+[3.282s] [ 75%] Built target gazebo_msgs__rosidl_typesupport_introspection_c
+[3.283s] [ 76%] [32m[1mLinking CXX shared library libgazebo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.452s] [ 88%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c
+[3.497s] [ 88%] Built target gazebo_msgs
+[3.526s] [ 88%] Built target gazebo_msgs__py
+[3.598s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_msgs/libgazebo_msgs__python.so[0m
+[3.687s] [100%] Built target gazebo_msgs__python
+[3.741s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[3.749s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[3.763s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-x86_64-linux-gnu.so[0m
+[3.849s] [100%] Built target gazebo_msgs__rosidl_typesupport_c__pyext
+[3.871s] [100%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.885s] [100%] Built target gazebo_msgs__rosidl_typesupport_introspection_c__pyext
+[3.900s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs -- -j6 -l6
+[5.046s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs --target install -- -j6 -l6
+[5.173s] [  0%] Built target gazebo_msgs__cpp
+[5.196s] [ 12%] Built target gazebo_msgs__rosidl_generator_c
+[5.245s] [ 25%] Built target gazebo_msgs__rosidl_typesupport_introspection_cpp
+[5.254s] [ 37%] Built target gazebo_msgs__rosidl_typesupport_cpp
+[5.255s] [ 50%] Built target gazebo_msgs__rosidl_typesupport_c
+[5.265s] [ 62%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_cpp
+[5.275s] [ 75%] Built target gazebo_msgs__rosidl_typesupport_introspection_c
+[5.334s] [ 88%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c
+[5.364s] [ 88%] Built target gazebo_msgs
+[5.394s] [ 88%] Built target gazebo_msgs__py
+[5.467s] [100%] Built target gazebo_msgs__python
+[5.507s] [100%] Built target gazebo_msgs__rosidl_typesupport_introspection_c__pyext
+[5.509s] [100%] Built target gazebo_msgs__rosidl_typesupport_c__pyext
+[5.517s] [100%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.544s] [36mInstall the project...[0m
+[5.555s] -- Install configuration: ""
+[5.556s] -- Execute custom install script
+[5.556s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/ament_index/resource_index/rosidl_interfaces/gazebo_msgs
+[5.580s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state.hpp
+[5.586s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__struct.hpp
+[5.595s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__traits.hpp
+[5.604s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state.hpp
+[5.613s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__struct.hpp
+[5.624s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__traits.hpp
+[5.635s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state.hpp
+[5.649s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__struct.hpp
+[5.665s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__traits.hpp
+[5.676s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state.hpp
+[5.686s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__struct.hpp
+[5.695s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__traits.hpp
+[5.723s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states.hpp
+[5.723s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__struct.hpp
+[5.733s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__traits.hpp
+[5.744s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image.hpp
+[5.755s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__struct.hpp
+[5.769s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__traits.hpp
+[5.784s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state.hpp
+[5.791s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__struct.hpp
+[5.802s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__traits.hpp
+[5.812s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states.hpp
+[5.823s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__struct.hpp
+[5.833s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__traits.hpp
+[5.844s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties.hpp
+[5.854s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__struct.hpp
+[5.864s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__traits.hpp
+[5.875s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics.hpp
+[5.885s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__struct.hpp
+[5.896s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__traits.hpp
+[5.906s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state.hpp
+[5.916s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__struct.hpp
+[5.926s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__traits.hpp
+[5.937s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench.hpp
+[5.948s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__struct.hpp
+[5.958s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__traits.hpp
+[5.969s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort.hpp
+[5.980s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__struct.hpp
+[5.993s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__traits.hpp
+[6.002s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request.hpp
+[6.012s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__struct.hpp
+[6.026s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__traits.hpp
+[6.038s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity.hpp
+[6.049s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__struct.hpp
+[6.062s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__traits.hpp
+[6.069s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light.hpp
+[6.091s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__struct.hpp
+[6.091s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__traits.hpp
+[6.110s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model.hpp
+[6.112s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__struct.hpp
+[6.132s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__traits.hpp
+[6.134s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state.hpp
+[6.145s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__struct.hpp
+[6.162s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__traits.hpp
+[6.172s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties.hpp
+[6.180s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__struct.hpp
+[6.191s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__traits.hpp
+[6.213s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties.hpp
+[6.220s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__struct.hpp
+[6.232s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__traits.hpp
+[6.241s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties.hpp
+[6.250s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__struct.hpp
+[6.262s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__traits.hpp
+[6.272s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state.hpp
+[6.284s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__struct.hpp
+[6.297s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__traits.hpp
+[6.311s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list.hpp
+[6.322s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__struct.hpp
+[6.334s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__traits.hpp
+[6.344s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties.hpp
+[6.364s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__struct.hpp
+[6.366s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__traits.hpp
+[6.385s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state.hpp
+[6.395s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__struct.hpp
+[6.405s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__traits.hpp
+[6.418s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties.hpp
+[6.427s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__struct.hpp
+[6.442s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__traits.hpp
+[6.459s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties.hpp
+[6.466s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__struct.hpp
+[6.477s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__traits.hpp
+[6.489s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request.hpp
+[6.501s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__struct.hpp
+[6.514s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__traits.hpp
+[6.530s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state.hpp
+[6.542s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__struct.hpp
+[6.553s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__traits.hpp
+[6.564s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties.hpp
+[6.574s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__struct.hpp
+[6.585s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__traits.hpp
+[6.596s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory.hpp
+[6.613s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__struct.hpp
+[6.620s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__traits.hpp
+[6.631s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties.hpp
+[6.641s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__struct.hpp
+[6.652s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__traits.hpp
+[6.662s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties.hpp
+[6.672s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__struct.hpp
+[6.683s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__traits.hpp
+[6.700s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state.hpp
+[6.717s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__struct.hpp
+[6.727s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__traits.hpp
+[6.739s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration.hpp
+[6.750s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__struct.hpp
+[6.760s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__traits.hpp
+[6.771s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state.hpp
+[6.782s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__struct.hpp
+[6.794s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__traits.hpp
+[6.806s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties.hpp
+[6.817s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__struct.hpp
+[6.828s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__traits.hpp
+[6.838s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity.hpp
+[6.849s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__struct.hpp
+[6.861s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__traits.hpp
+[6.873s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model.hpp
+[6.885s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__struct.hpp
+[6.897s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__traits.hpp
+[6.914s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state.h
+[6.926s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__functions.h
+[6.938s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__struct.h
+[6.956s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__type_support.h
+[6.972s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state.h
+[6.986s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__functions.h
+[7.003s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__struct.h
+[7.016s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__type_support.h
+[7.028s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state.h
+[7.039s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__functions.h
+[7.052s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__struct.h
+[7.064s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__type_support.h
+[7.075s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state.h
+[7.087s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__functions.h
+[7.100s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__struct.h
+[7.112s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__type_support.h
+[7.131s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states.h
+[7.143s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__functions.h
+[7.160s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__struct.h
+[7.170s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__type_support.h
+[7.185s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image.h
+[7.206s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__functions.h
+[7.226s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__struct.h
+[7.244s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__type_support.h
+[7.258s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state.h
+[7.271s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__functions.h
+[7.282s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__struct.h
+[7.293s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__type_support.h
+[7.305s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states.h
+[7.317s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__functions.h
+[7.328s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__struct.h
+[7.340s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__type_support.h
+[7.351s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties.h
+[7.361s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__functions.h
+[7.372s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__struct.h
+[7.384s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__type_support.h
+[7.393s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics.h
+[7.404s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__functions.h
+[7.418s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__struct.h
+[7.425s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__type_support.h
+[7.436s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.447s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state.h
+[7.457s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__functions.h
+[7.468s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__struct.h
+[7.480s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__type_support.h
+[7.491s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench.h
+[7.500s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__functions.h
+[7.511s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__struct.h
+[7.520s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__type_support.h
+[7.531s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort.h
+[7.542s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__functions.h
+[7.553s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__struct.h
+[7.565s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__type_support.h
+[7.575s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request.h
+[7.597s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__functions.h
+[7.606s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__struct.h
+[7.616s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__type_support.h
+[7.626s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity.h
+[7.642s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__functions.h
+[7.651s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__struct.h
+[7.659s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__type_support.h
+[7.669s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light.h
+[7.676s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__functions.h
+[7.687s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__struct.h
+[7.699s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__type_support.h
+[7.709s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model.h
+[7.719s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__functions.h
+[7.730s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__struct.h
+[7.740s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__type_support.h
+[7.752s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state.h
+[7.769s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__functions.h
+[7.776s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__struct.h
+[7.785s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__type_support.h
+[7.795s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties.h
+[7.802s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__functions.h
+[7.811s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__struct.h
+[7.830s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__type_support.h
+[7.831s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties.h
+[7.847s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__functions.h
+[7.852s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__struct.h
+[7.863s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__type_support.h
+[7.873s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties.h
+[7.886s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__functions.h
+[7.896s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__struct.h
+[7.907s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__type_support.h
+[7.917s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state.h
+[7.929s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__functions.h
+[7.940s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__struct.h
+[7.950s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__type_support.h
+[7.960s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list.h
+[7.969s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__functions.h
+[7.979s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__struct.h
+[7.989s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__type_support.h
+[7.998s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties.h
+[8.009s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__functions.h
+[8.018s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__struct.h
+[8.028s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__type_support.h
+[8.038s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state.h
+[8.048s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__functions.h
+[8.057s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__struct.h
+[8.067s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__type_support.h
+[8.077s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties.h
+[8.086s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__functions.h
+[8.096s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__struct.h
+[8.110s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__type_support.h
+[8.127s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties.h
+[8.133s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__functions.h
+[8.143s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__struct.h
+[8.154s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__type_support.h
+[8.165s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request.h
+[8.175s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__functions.h
+[8.185s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__struct.h
+[8.200s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__type_support.h
+[8.210s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state.h
+[8.218s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__functions.h
+[8.229s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__struct.h
+[8.235s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__type_support.h
+[8.245s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties.h
+[8.260s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__functions.h
+[8.263s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__struct.h
+[8.273s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__type_support.h
+[8.283s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory.h
+[8.293s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__functions.h
+[8.303s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__struct.h
+[8.314s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__type_support.h
+[8.324s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties.h
+[8.334s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__functions.h
+[8.344s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__struct.h
+[8.355s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__type_support.h
+[8.365s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties.h
+[8.376s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__functions.h
+[8.387s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__struct.h
+[8.399s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__type_support.h
+[8.410s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state.h
+[8.421s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__functions.h
+[8.432s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__struct.h
+[8.442s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__type_support.h
+[8.453s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration.h
+[8.463s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__functions.h
+[8.473s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__struct.h
+[8.484s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__type_support.h
+[8.495s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state.h
+[8.505s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__functions.h
+[8.515s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__struct.h
+[8.525s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__type_support.h
+[8.535s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties.h
+[8.545s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__functions.h
+[8.555s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__struct.h
+[8.565s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__type_support.h
+[8.575s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity.h
+[8.585s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__functions.h
+[8.598s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__struct.h
+[8.608s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__type_support.h
+[8.618s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model.h
+[8.627s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__functions.h
+[8.637s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__struct.h
+[8.647s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__type_support.h
+[8.657s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/environment/library_path.sh
+[8.668s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_generator_c.so
+[8.678s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_typesupport_c.so
+[8.688s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_typesupport_cpp.so
+[8.698s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__rosidl_typesupport_introspection_c.h
+[8.709s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__rosidl_typesupport_introspection_c.h
+[8.719s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__rosidl_typesupport_introspection_c.h
+[8.729s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__rosidl_typesupport_introspection_c.h
+[8.739s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__rosidl_typesupport_introspection_c.h
+[8.748s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__rosidl_typesupport_introspection_c.h
+[8.759s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__rosidl_typesupport_introspection_c.h
+[8.773s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__rosidl_typesupport_introspection_c.h
+[8.783s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__rosidl_typesupport_introspection_c.h
+[8.801s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__rosidl_typesupport_introspection_c.h
+[8.810s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.816s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__rosidl_typesupport_introspection_c.h
+[8.826s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__rosidl_typesupport_introspection_c.h
+[8.836s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__rosidl_typesupport_introspection_c.h
+[8.846s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__rosidl_typesupport_introspection_c.h
+[8.856s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__rosidl_typesupport_introspection_c.h
+[8.866s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__rosidl_typesupport_introspection_c.h
+[8.876s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__rosidl_typesupport_introspection_c.h
+[8.885s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__rosidl_typesupport_introspection_c.h
+[8.895s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__rosidl_typesupport_introspection_c.h
+[8.905s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__rosidl_typesupport_introspection_c.h
+[8.916s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__rosidl_typesupport_introspection_c.h
+[8.929s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__rosidl_typesupport_introspection_c.h
+[8.937s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__rosidl_typesupport_introspection_c.h
+[8.947s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__rosidl_typesupport_introspection_c.h
+[8.955s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__rosidl_typesupport_introspection_c.h
+[8.964s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__rosidl_typesupport_introspection_c.h
+[8.984s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__rosidl_typesupport_introspection_c.h
+[8.988s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__rosidl_typesupport_introspection_c.h
+[8.995s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__rosidl_typesupport_introspection_c.h
+[9.004s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__rosidl_typesupport_introspection_c.h
+[9.016s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__rosidl_typesupport_introspection_c.h
+[9.024s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__rosidl_typesupport_introspection_c.h
+[9.034s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__rosidl_typesupport_introspection_c.h
+[9.044s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__rosidl_typesupport_introspection_c.h
+[9.056s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__rosidl_typesupport_introspection_c.h
+[9.069s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__rosidl_typesupport_introspection_c.h
+[9.081s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__rosidl_typesupport_introspection_c.h
+[9.093s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__rosidl_typesupport_introspection_c.h
+[9.102s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__rosidl_typesupport_introspection_c.h
+[9.112s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_typesupport_introspection_c.so
+[9.123s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__rosidl_typesupport_introspection_cpp.hpp
+[9.133s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__rosidl_typesupport_introspection_cpp.hpp
+[9.143s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__rosidl_typesupport_introspection_cpp.hpp
+[9.153s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__rosidl_typesupport_introspection_cpp.hpp
+[9.162s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__rosidl_typesupport_introspection_cpp.hpp
+[9.173s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__rosidl_typesupport_introspection_cpp.hpp
+[9.184s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__rosidl_typesupport_introspection_cpp.hpp
+[9.195s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__rosidl_typesupport_introspection_cpp.hpp
+[9.205s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.216s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__rosidl_typesupport_introspection_cpp.hpp
+[9.226s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__rosidl_typesupport_introspection_cpp.hpp
+[9.236s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__rosidl_typesupport_introspection_cpp.hpp
+[9.246s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__rosidl_typesupport_introspection_cpp.hpp
+[9.256s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__rosidl_typesupport_introspection_cpp.hpp
+[9.265s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__rosidl_typesupport_introspection_cpp.hpp
+[9.275s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__rosidl_typesupport_introspection_cpp.hpp
+[9.286s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__rosidl_typesupport_introspection_cpp.hpp
+[9.295s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__rosidl_typesupport_introspection_cpp.hpp
+[9.306s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.315s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.325s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.335s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__rosidl_typesupport_introspection_cpp.hpp
+[9.345s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__rosidl_typesupport_introspection_cpp.hpp
+[9.354s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.364s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__rosidl_typesupport_introspection_cpp.hpp
+[9.373s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.383s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.393s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__rosidl_typesupport_introspection_cpp.hpp
+[9.404s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__rosidl_typesupport_introspection_cpp.hpp
+[9.417s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.427s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[9.436s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.446s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.456s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__rosidl_typesupport_introspection_cpp.hpp
+[9.465s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__rosidl_typesupport_introspection_cpp.hpp
+[9.475s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__rosidl_typesupport_introspection_cpp.hpp
+[9.485s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__rosidl_typesupport_introspection_cpp.hpp
+[9.495s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__rosidl_typesupport_introspection_cpp.hpp
+[9.504s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__rosidl_typesupport_introspection_cpp.hpp
+[9.515s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_typesupport_introspection_cpp.so
+[9.526s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__rosidl_typesupport_fastrtps_c.h
+[9.535s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__rosidl_typesupport_fastrtps_c.h
+[9.546s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__rosidl_typesupport_fastrtps_c.h
+[9.555s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__rosidl_typesupport_fastrtps_c.h
+[9.565s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__rosidl_typesupport_fastrtps_c.h
+[9.575s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__rosidl_typesupport_fastrtps_c.h
+[9.585s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__rosidl_typesupport_fastrtps_c.h
+[9.596s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__rosidl_typesupport_fastrtps_c.h
+[9.606s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__rosidl_typesupport_fastrtps_c.h
+[9.616s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__rosidl_typesupport_fastrtps_c.h
+[9.625s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.635s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__rosidl_typesupport_fastrtps_c.h
+[9.645s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__rosidl_typesupport_fastrtps_c.h
+[9.654s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__rosidl_typesupport_fastrtps_c.h
+[9.664s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__rosidl_typesupport_fastrtps_c.h
+[9.680s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__rosidl_typesupport_fastrtps_c.h
+[9.707s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__rosidl_typesupport_fastrtps_c.h
+[9.708s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__rosidl_typesupport_fastrtps_c.h
+[9.711s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__rosidl_typesupport_fastrtps_c.h
+[9.721s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__rosidl_typesupport_fastrtps_c.h
+[9.743s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__rosidl_typesupport_fastrtps_c.h
+[9.743s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__rosidl_typesupport_fastrtps_c.h
+[9.752s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__rosidl_typesupport_fastrtps_c.h
+[9.761s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__rosidl_typesupport_fastrtps_c.h
+[9.771s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__rosidl_typesupport_fastrtps_c.h
+[9.782s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__rosidl_typesupport_fastrtps_c.h
+[9.792s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__rosidl_typesupport_fastrtps_c.h
+[9.802s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__rosidl_typesupport_fastrtps_c.h
+[9.811s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__rosidl_typesupport_fastrtps_c.h
+[9.821s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__rosidl_typesupport_fastrtps_c.h
+[9.831s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__rosidl_typesupport_fastrtps_c.h
+[9.841s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[9.851s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__rosidl_typesupport_fastrtps_c.h
+[9.861s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__rosidl_typesupport_fastrtps_c.h
+[9.871s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__rosidl_typesupport_fastrtps_c.h
+[9.880s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__rosidl_typesupport_fastrtps_c.h
+[9.890s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__rosidl_typesupport_fastrtps_c.h
+[9.899s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__rosidl_typesupport_fastrtps_c.h
+[9.908s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__rosidl_typesupport_fastrtps_c.h
+[9.917s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__rosidl_typesupport_fastrtps_c.h
+[9.927s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_typesupport_fastrtps_c.so
+[9.939s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contact_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.950s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/contacts_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.960s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/entity_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.970s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.980s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/link_states__rosidl_typesupport_fastrtps_cpp.hpp
+[9.990s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/logical_camera_image__rosidl_typesupport_fastrtps_cpp.hpp
+[10.000s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.010s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/model_states__rosidl_typesupport_fastrtps_cpp.hpp
+[10.023s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_joint_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.034s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/ode_physics__rosidl_typesupport_fastrtps_cpp.hpp
+[10.044s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.053s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/msg/world_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.063s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_body_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[10.073s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/apply_joint_effort__rosidl_typesupport_fastrtps_cpp.hpp
+[10.083s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/body_request__rosidl_typesupport_fastrtps_cpp.hpp
+[10.093s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[10.103s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_light__rosidl_typesupport_fastrtps_cpp.hpp
+[10.112s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/delete_model__rosidl_typesupport_fastrtps_cpp.hpp
+[10.123s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_entity_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.133s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_joint_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.143s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_light_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.153s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.162s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_link_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.172s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_list__rosidl_typesupport_fastrtps_cpp.hpp
+[10.182s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.193s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_model_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.203s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_physics_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.212s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/get_world_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.222s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/joint_request__rosidl_typesupport_fastrtps_cpp.hpp
+[10.232s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_entity_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.243s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.252s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[10.261s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_light_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.271s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.281s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_link_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.290s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_configuration__rosidl_typesupport_fastrtps_cpp.hpp
+[10.301s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_model_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.310s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/set_physics_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[10.320s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[10.329s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/include/gazebo_msgs/srv/spawn_model__rosidl_typesupport_fastrtps_cpp.hpp
+[10.339s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.350s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/environment/pythonpath.sh
+[10.359s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/__init__.py
+[10.369s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/__init__.py
+[10.378s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_contact_state.py
+[10.387s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_contacts_state.py
+[10.396s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_entity_state.py
+[10.405s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_link_state.py
+[10.414s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_link_states.py
+[10.424s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_logical_camera_image.py
+[10.433s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_model_state.py
+[10.443s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_model_states.py
+[10.453s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_ode_joint_properties.py
+[10.463s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_ode_physics.py
+[10.472s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/msg/_world_state.py
+[10.482s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/__init__.py
+[10.491s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_apply_body_wrench.py
+[10.500s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_apply_joint_effort.py
+[10.509s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_body_request.py
+[10.518s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_delete_entity.py
+[10.528s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_delete_light.py
+[10.537s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_delete_model.py
+[10.546s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_entity_state.py
+[10.556s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_joint_properties.py
+[10.565s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_light_properties.py
+[10.576s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_link_properties.py
+[10.589s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_link_state.py
+[10.602s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_model_list.py
+[10.616s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_model_properties.py
+[10.628s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_model_state.py
+[10.638s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_physics_properties.py
+[10.648s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_get_world_properties.py
+[10.657s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_joint_request.py
+[10.668s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_entity_state.py
+[10.677s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_joint_properties.py
+[10.687s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_joint_trajectory.py
+[10.697s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_light_properties.py
+[10.706s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_link_properties.py
+[10.716s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_link_state.py
+[10.726s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_model_configuration.py
+[10.736s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_model_state.py
+[10.745s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_set_physics_properties.py
+[10.755s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_spawn_entity.py
+[10.764s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/srv/_spawn_model.py
+[10.774s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[10.784s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-x86_64-linux-gnu.so
+[10.793s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/gazebo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[10.803s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__python.so
+[10.812s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ContactState.idl
+[10.822s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ContactsState.idl
+[10.831s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/EntityState.idl
+[10.841s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/LinkState.idl
+[10.850s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/LinkStates.idl
+[10.860s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/LogicalCameraImage.idl
+[10.870s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ModelState.idl
+[10.879s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ModelStates.idl
+[10.888s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ODEJointProperties.idl
+[10.898s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ODEPhysics.idl
+[10.908s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/WorldState.idl
+[10.918s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/ApplyBodyWrench.idl
+[10.928s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/ApplyJointEffort.idl
+[10.938s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/BodyRequest.idl
+[10.948s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteEntity.idl
+[10.957s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteLight.idl
+[10.967s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteModel.idl
+[10.977s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetJointProperties.idl
+[10.987s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetEntityState.idl
+[10.997s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLightProperties.idl
+[11.007s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLinkProperties.idl
+[11.017s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLinkState.idl
+[11.027s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelList.idl
+[11.037s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelProperties.idl
+[11.047s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelState.idl
+[11.057s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetPhysicsProperties.idl
+[11.067s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetWorldProperties.idl
+[11.076s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/JointRequest.idl
+[11.086s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetEntityState.idl
+[11.096s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetJointProperties.idl
+[11.105s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetJointTrajectory.idl
+[11.115s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLightProperties.idl
+[11.125s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLinkProperties.idl
+[11.135s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLinkState.idl
+[11.145s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetModelConfiguration.idl
+[11.155s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetModelState.idl
+[11.165s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetPhysicsProperties.idl
+[11.174s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SpawnEntity.idl
+[11.184s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SpawnModel.idl
+[11.194s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ContactState.msg
+[11.203s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ContactsState.msg
+[11.213s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/EntityState.msg
+[11.223s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/LinkState.msg
+[11.233s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/LinkStates.msg
+[11.243s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/LogicalCameraImage.msg
+[11.252s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ModelState.msg
+[11.262s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ModelStates.msg
+[11.274s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ODEJointProperties.msg
+[11.284s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/ODEPhysics.msg
+[11.293s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/msg/WorldState.msg
+[11.303s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/ApplyBodyWrench.srv
+[11.313s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/ApplyBodyWrench_Request.msg
+[11.323s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/ApplyBodyWrench_Response.msg
+[11.334s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/ApplyJointEffort.srv
+[11.343s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/ApplyJointEffort_Request.msg
+[11.353s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/ApplyJointEffort_Response.msg
+[11.362s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/BodyRequest.srv
+[11.371s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/BodyRequest_Request.msg
+[11.381s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/BodyRequest_Response.msg
+[11.390s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteEntity.srv
+[11.400s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteEntity_Request.msg
+[11.409s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteEntity_Response.msg
+[11.418s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteLight.srv
+[11.428s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteLight_Request.msg
+[11.438s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteLight_Response.msg
+[11.447s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteModel.srv
+[11.456s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteModel_Request.msg
+[11.466s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/DeleteModel_Response.msg
+[11.475s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetJointProperties.srv
+[11.484s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetJointProperties_Request.msg
+[11.493s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetJointProperties_Response.msg
+[11.502s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetEntityState.srv
+[11.512s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetEntityState_Request.msg
+[11.522s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetEntityState_Response.msg
+[11.532s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLightProperties.srv
+[11.542s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLightProperties_Request.msg
+[11.552s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLightProperties_Response.msg
+[11.561s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLinkProperties.srv
+[11.571s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLinkProperties_Request.msg
+[11.580s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLinkProperties_Response.msg
+[11.591s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLinkState.srv
+[11.601s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLinkState_Request.msg
+[11.611s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetLinkState_Response.msg
+[11.620s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelList.srv
+[11.630s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelList_Request.msg
+[11.640s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelList_Response.msg
+[11.649s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelProperties.srv
+[11.659s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelProperties_Request.msg
+[11.669s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelProperties_Response.msg
+[11.679s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelState.srv
+[11.689s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelState_Request.msg
+[11.699s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetModelState_Response.msg
+[11.709s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetPhysicsProperties.srv
+[11.718s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetPhysicsProperties_Request.msg
+[11.729s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetPhysicsProperties_Response.msg
+[11.739s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetWorldProperties.srv
+[11.748s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetWorldProperties_Request.msg
+[11.758s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/GetWorldProperties_Response.msg
+[11.767s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/JointRequest.srv
+[11.776s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/JointRequest_Request.msg
+[11.786s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/JointRequest_Response.msg
+[11.796s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetEntityState.srv
+[11.807s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetEntityState_Request.msg
+[11.817s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetEntityState_Response.msg
+[11.827s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetJointProperties.srv
+[11.838s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetJointProperties_Request.msg
+[11.848s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetJointProperties_Response.msg
+[11.858s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetJointTrajectory.srv
+[11.868s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetJointTrajectory_Request.msg
+[11.877s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetJointTrajectory_Response.msg
+[11.887s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLightProperties.srv
+[11.897s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLightProperties_Request.msg
+[11.907s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLightProperties_Response.msg
+[11.933s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLinkProperties.srv
+[11.942s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLinkProperties_Request.msg
+[11.952s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLinkProperties_Response.msg
+[11.962s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLinkState.srv
+[11.972s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLinkState_Request.msg
+[11.981s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetLinkState_Response.msg
+[11.991s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetModelConfiguration.srv
+[12.001s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetModelConfiguration_Request.msg
+[12.010s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetModelConfiguration_Response.msg
+[12.020s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetModelState.srv
+[12.030s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetModelState_Request.msg
+[12.040s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetModelState_Response.msg
+[12.050s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetPhysicsProperties.srv
+[12.059s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetPhysicsProperties_Request.msg
+[12.069s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SetPhysicsProperties_Response.msg
+[12.079s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SpawnEntity.srv
+[12.088s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SpawnEntity_Request.msg
+[12.098s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SpawnEntity_Response.msg
+[12.107s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SpawnModel.srv
+[12.117s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SpawnModel_Request.msg
+[12.127s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/srv/SpawnModel_Response.msg
+[12.137s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/ament_index/resource_index/package_run_dependencies/gazebo_msgs
+[12.147s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/ament_index/resource_index/parent_prefix_path/gazebo_msgs
+[12.157s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/environment/ament_prefix_path.sh
+[12.166s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/environment/path.sh
+[12.176s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/local_setup.bash
+[12.186s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/local_setup.sh
+[12.195s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/local_setup.zsh
+[12.204s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/ament_index/resource_index/packages/gazebo_msgs
+[12.214s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/cmake/rosidl_cmake-extras.cmake
+[12.224s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.234s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.243s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.253s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/cmake/gazebo_msgsConfig.cmake
+[12.262s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/cmake/gazebo_msgsConfig-version.cmake
+[12.271s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/package.xml
+[12.281s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/gazebo_msgs_mapping_rules.yaml
+[12.321s] Compiling '/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages/gazebo_msgs/__init__.py'...
+[12.333s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs --target install -- -j6 -l6

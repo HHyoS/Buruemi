@@ -1,0 +1,70 @@
+[0.051s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples
+[0.190s] -- The C compiler identification is GNU 7.5.0
+[0.277s] -- The CXX compiler identification is GNU 7.5.0
+[0.286s] -- Check for working C compiler: /usr/bin/cc
+[0.418s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.419s] -- Detecting C compiler ABI info
+[0.557s] -- Detecting C compiler ABI info - done
+[0.578s] -- Detecting C compile features
+[0.961s] -- Detecting C compile features - done
+[0.965s] -- Check for working CXX compiler: /usr/bin/c++
+[1.114s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.114s] -- Detecting CXX compiler ABI info
+[1.278s] -- Detecting CXX compiler ABI info - done
+[1.290s] -- Detecting CXX compile features
+[1.988s] -- Detecting CXX compile features - done
+[1.989s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.035s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.455s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.480s] -- Found dynamixel_sdk: 3.7.40 (/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.484s] -- Found dynamixel_sdk_custom_interfaces: 3.7.40 (/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[2.518s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.593s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.631s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.634s] -- Looking for pthread.h
+[2.780s] -- Looking for pthread.h - found
+[2.781s] -- Looking for pthread_create
+[2.927s] -- Looking for pthread_create - not found
+[2.927s] -- Looking for pthread_create in pthreads
+[3.036s] -- Looking for pthread_create in pthreads - not found
+[3.037s] -- Looking for pthread_create in pthread
+[3.183s] -- Looking for pthread_create in pthread - found
+[3.183s] -- Found Threads: TRUE  
+[3.323s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[3.585s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[3.587s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.588s] -- Configured cppcheck include dirs: /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples/include
+[3.590s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.592s] -- Added test 'lint_cmake' to check CMake code style
+[3.595s] -- Added test 'uncrustify' to check C / C++ code style
+[3.596s] -- Added test 'xmllint' to check XML markup files
+[3.601s] -- Configuring done
+[3.638s] -- Generating done
+[3.640s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples
+[3.646s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples
+[3.654s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples -- -j6 -l6
+[3.741s] [35m[1mScanning dependencies of target read_write_node[0m
+[3.872s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[8.864s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[9.269s] [100%] Built target read_write_node
+[9.317s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples -- -j6 -l6
+[9.587s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples --target install -- -j6 -l6
+[9.890s] [100%] Built target read_write_node
+[10.025s] [36mInstall the project...[0m
+[10.067s] -- Install configuration: ""
+[10.069s] -- Execute custom install script
+[10.070s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[10.093s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[10.115s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[10.137s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[10.164s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[10.185s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[10.246s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[10.281s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[10.300s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[10.317s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[10.335s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[10.361s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[10.411s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/src/build/dynamixel_sdk_examples --target install -- -j6 -l6
