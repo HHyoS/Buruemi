@@ -1,0 +1,69 @@
+[0.136s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/vision_opencv:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing:/home/iju/S08P31C208/ROS/robot_ws/install/aws_robomaker_hospital_world:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge -- -j6 -l6
+[0.207s] -- Found ament_cmake_ros: 0.7.0 (/opt/ros/dashing/share/ament_cmake_ros/cmake)
+[0.240s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.240s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.509s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.526s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found version "3.6.9") 
+[0.577s] -- Boost version: 1.65.1
+[0.577s] -- Found the following Boost libraries:
+[0.577s] --   python3
+[0.578s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[0.588s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.714s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.714s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.6") 
+[0.717s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[0.868s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.829s] -- Configuring done
+[2.944s] -- Generating done
+[2.947s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge
+[3.130s] [35m[1mScanning dependencies of target cv_bridge[0m
+[3.139s] [ 12%] Built target gtest
+[3.202s] [ 18%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[3.204s] [ 25%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[3.211s] [ 37%] Built target gtest_main
+[8.985s] [ 43%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[9.229s] [ 43%] Built target cv_bridge
+[9.249s] [35m[1mScanning dependencies of target cv_bridge_boost[0m
+[9.293s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[9.304s] [ 56%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[9.361s] [ 62%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[10.162s] [ 93%] Built target cv_bridge-utest
+[13.921s] [100%] [32m[1mLinking CXX shared library boost/cv_bridge_boost.so[0m
+[14.178s] [100%] Built target cv_bridge_boost
+[14.213s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/vision_opencv:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing:/home/iju/S08P31C208/ROS/robot_ws/install/aws_robomaker_hospital_world:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge -- -j6 -l6
+[14.322s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/vision_opencv:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing:/home/iju/S08P31C208/ROS/robot_ws/install/aws_robomaker_hospital_world:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge --target install -- -j6 -l6
+[14.459s] [ 18%] Built target cv_bridge
+[14.501s] [ 31%] Built target gtest
+[14.501s] [ 43%] Built target gtest_main
+[14.600s] [ 62%] Built target cv_bridge_boost
+[14.622s] [100%] Built target cv_bridge-utest
+[14.713s] [36mInstall the project...[0m
+[14.746s] -- Install configuration: ""
+[14.747s] -- Execute custom install script
+[14.747s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[14.748s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/__init__.py
+[14.748s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/core.py
+[14.748s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/libcv_bridge.so
+[14.749s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+[14.749s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost//cv_bridge_boost.so
+[14.749s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/environment/library_path.sh
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/include/cv_bridge/cv_bridge.h
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/include/cv_bridge/rgb_colors.h
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[14.767s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[14.773s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[14.773s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[14.773s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.775s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.775s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[14.775s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[14.776s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[14.776s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/share/cv_bridge/package.xml
+[14.837s] Listing '/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge'...
+[14.837s] Listing '/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost'...
+[15.539s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/vision_opencv:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/image_geometry:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing:/home/iju/S08P31C208/ROS/robot_ws/install/aws_robomaker_hospital_world:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge --target install -- -j6 -l6
