@@ -1,0 +1,33 @@
+[0.109s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2
+[0.129s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.407s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.540s] -- Configuring done
+[0.542s] -- Generating done
+[0.544s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2
+[0.546s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2
+[0.550s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 -- -j6 -l6
+[0.628s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 -- -j6 -l6
+[0.745s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 --target install -- -j6 -l6
+[0.919s] [36mInstall the project...[0m
+[0.944s] -- Install configuration: ""
+[0.944s] -- Execute custom install script
+[0.945s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[0.957s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[0.969s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[0.986s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[0.999s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.011s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.023s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.034s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.047s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.059s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.070s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.092s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.104s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.121s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.135s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.147s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.158s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.185s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.252s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 --target install -- -j6 -l6
