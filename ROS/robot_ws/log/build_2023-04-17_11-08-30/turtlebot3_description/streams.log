@@ -1,0 +1,42 @@
+[0.067s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description
+[0.093s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.126s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.381s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.390s] -- Found urdf: 2.2.0 (/opt/ros/dashing/share/urdf/cmake)
+[0.535s] -- Configuring done
+[0.541s] -- Generating done
+[0.541s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description
+[0.544s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description
+[0.548s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description -- -j6 -l6
+[0.598s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description -- -j6 -l6
+[0.645s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description --target install -- -j6 -l6
+[0.706s] [36mInstall the project...[0m
+[0.721s] -- Install configuration: ""
+[0.721s] -- Execute custom install script
+[0.722s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[0.739s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[0.757s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[0.773s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[0.786s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[0.799s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[0.812s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[0.824s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[0.836s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[0.847s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[0.859s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[0.869s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[0.889s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[0.905s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[0.917s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[0.926s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[0.937s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[0.950s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[0.971s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[0.983s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[0.993s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.011s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.028s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.046s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.057s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.072s] -- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[1.101s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_description --target install -- -j6 -l6

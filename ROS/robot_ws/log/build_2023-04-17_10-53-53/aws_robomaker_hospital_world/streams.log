@@ -1,0 +1,35 @@
+[0.028s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/aws_robomaker_hospital_world': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/aws-robomaker-hospital-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/aws_robomaker_hospital_world
+[0.089s] -- The C compiler identification is GNU 7.5.0
+[0.144s] -- The CXX compiler identification is GNU 7.5.0
+[0.148s] -- Check for working C compiler: /usr/bin/cc
+[0.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.212s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.285s] -- Detecting C compile features
+[0.482s] -- Detecting C compile features - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.562s] -- Detecting CXX compiler ABI info
+[0.640s] -- Detecting CXX compiler ABI info - done
+[0.648s] -- Detecting CXX compile features
+[0.973s] -- Detecting CXX compile features - done
+[0.980s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.980s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.980s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.980s]   CMake did not find one.
+[0.980s] 
+[0.980s]   Could not find a package configuration file provided by "catkin" with any
+[0.980s]   of the following names:
+[0.980s] 
+[0.980s]     catkinConfig.cmake
+[0.980s]     catkin-config.cmake
+[0.980s] 
+[0.980s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.980s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.980s]   provides a separate development package or SDK, be sure it has been
+[0.981s]   installed.
+[0.981s] 
+[0.981s] 
+[0.981s] -- Configuring incomplete, errors occurred!
+[0.981s] See also "/home/iju/S08P31C208/ROS/robot_ws/build/aws_robomaker_hospital_world/CMakeFiles/CMakeOutput.log".
+[0.984s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/aws_robomaker_hospital_world' returned '1': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/aws-robomaker-hospital-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/aws_robomaker_hospital_world
