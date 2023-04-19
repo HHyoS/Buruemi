@@ -19,7 +19,7 @@ int main() {
         }
 
         // 읽어온 프레임 출력
-        imshow("Camera Test", frame);
+        imshow("Camera Testtt", frame);
 
         // 'q'를 누르면 종료
         if (waitKey(1) == 'q') {
