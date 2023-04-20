@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 
     // Check if camera opened successfully
     if(!cap.isOpened()){
-        cout << "Error opening video stream or file" << endl;
+        cout << "Error opening video stream or files" << endl;
         return -1;
     }
 
