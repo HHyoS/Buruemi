@@ -11,7 +11,7 @@ VSLAM기반 자율주행 서비스 로봇은 실내에서 물건을 전달해주
 `RTOS` `ROS` `FE` `BE`  각각 `워크스페이스` 를 업로드합니다.
 
 ```bash
-ROS / catkin_ws   <-- workspace
+ROS / catkin_ws   <-- workspace 
 ```
 
 git flow 전략을 사용합니다.
