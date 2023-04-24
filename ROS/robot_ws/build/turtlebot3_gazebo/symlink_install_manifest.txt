@@ -1,7 +1,6 @@
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
-/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/test.world
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
@@ -92,13 +91,8 @@
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
-/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/ssafy.world
-/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/test.world
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
-/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/test.world
-/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/test/model.config
-/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/test/test.world
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
 /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model

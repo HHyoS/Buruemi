@@ -1,0 +1,28 @@
+[2.452s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example/prefix_override:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example/build --no-deps install_data
+[3.774s] /home/iju/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.775s]   % (opt, underscore_opt)
+[4.041s] running develop
+[4.044s] /home/iju/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.044s]   EasyInstallDeprecationWarning,
+[4.051s] /home/iju/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.051s]   setuptools.SetuptoolsDeprecationWarning,
+[4.297s] /home/iju/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[4.297s]   PkgResourcesDeprecationWarning,
+[4.707s] running egg_info
+[4.709s] writing turtlebot3_example.egg-info/PKG-INFO
+[4.711s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[4.711s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[4.713s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[4.714s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[4.724s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.731s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.738s] running build_ext
+[4.740s] Creating /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages/turtlebot3-example.egg-link (link to .)
+[4.745s] Installing turtlebot3_obstacle_detection script to /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[4.746s] Installing turtlebot3_patrol_client script to /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[4.746s] Installing turtlebot3_patrol_server script to /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[4.746s] Installing turtlebot3_position_control script to /home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[4.747s] 
+[4.747s] Installed /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example
+[4.749s] running install_data
+[4.884s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example/prefix_override:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/src/install/turtlebot3_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3_example/build --no-deps install_data
