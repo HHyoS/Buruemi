@@ -9,7 +9,7 @@ int main(int argc, char** argv)
 {
     // Open the default camera
     VideoCapture cap(0);
-
+ 
     // Check if camera opened successfully
     if(!cap.isOpened()){
         cout << "Error opening video stream or files" << endl;
