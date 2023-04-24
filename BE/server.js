@@ -2,11 +2,13 @@ const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
 const path = require("path");
-const mysql = require("mysql2");
+const pool = require("./utility/db.js");
+const io = require("./utility/socket.js");
 
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
+
 
 // 주문 대기열
 let queue = [];
@@ -16,21 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 
 // 클라이언트의 주문 데이터를 queue에 추가하는 함수
-// const addOrderToQueue = (socketId, orderData) => {
-//   const order = {
-//     socketId,
-//     name: orderData.name,
-//     from: orderData.from,
-//     to: orderData.to,
-//   };
-//   queue.push(order);
-// };
 const addOrderToQueue = (socketId, orderData) => {
-  // 해당 소켓 아이디로 이미 주문을 한 경우 무시
-  if (queue.some((order) => order.socketId === socketId)) {
-    return;
-  }
-
   const order = {
     socketId,
     name: orderData.name,
