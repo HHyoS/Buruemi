@@ -2,6 +2,7 @@
 import cv2
 
 # 웹캠 연결
+// cv2.CAP_V4L2 사용으로 지연율 감소
 cap = cv2.VideoCapture(0,cv2.CAP_V4L2)
 
 # 웹캠 해상도 변경
