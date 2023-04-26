@@ -1,0 +1,28 @@
+[4.842s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example': PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example/prefix_override:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example/build --no-deps install_data
+[6.368s] /home/moon/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.371s]   % (opt, underscore_opt)
+[6.669s] running develop
+[6.672s] /home/moon/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.674s]   EasyInstallDeprecationWarning,
+[6.680s] /home/moon/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.682s]   setuptools.SetuptoolsDeprecationWarning,
+[7.056s] /home/moon/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[7.056s]   PkgResourcesDeprecationWarning,
+[7.769s] running egg_info
+[7.770s] writing turtlebot3_example.egg-info/PKG-INFO
+[7.771s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[7.772s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[7.783s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[7.784s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[7.815s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[7.857s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[7.873s] running build_ext
+[7.880s] Creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/python3.6/site-packages/turtlebot3-example.egg-link (link to .)
+[7.881s] Installing turtlebot3_obstacle_detection script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.882s] Installing turtlebot3_patrol_client script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.882s] Installing turtlebot3_patrol_server script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.883s] Installing turtlebot3_position_control script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[7.883s] 
+[7.884s] Installed /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example
+[7.884s] running install_data
+[7.927s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example' returned '0': PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example/prefix_override:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example/build --no-deps install_data

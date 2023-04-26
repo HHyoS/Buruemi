@@ -1,0 +1,25 @@
+[5.027s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/lidar_filter': PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/build/lidar_filter/prefix_override:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/moon/S08P31C208/ROS/buruemi_ws/build/lidar_filter/build --no-deps install_data
+[6.717s] /home/moon/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.718s]   % (opt, underscore_opt)
+[7.015s] running develop
+[7.016s] /home/moon/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.017s]   EasyInstallDeprecationWarning,
+[7.023s] /home/moon/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.024s]   setuptools.SetuptoolsDeprecationWarning,
+[7.373s] /home/moon/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[7.375s]   PkgResourcesDeprecationWarning,
+[7.944s] running egg_info
+[7.948s] writing lidar_filter.egg-info/PKG-INFO
+[7.952s] writing dependency_links to lidar_filter.egg-info/dependency_links.txt
+[7.955s] writing entry points to lidar_filter.egg-info/entry_points.txt
+[7.956s] writing requirements to lidar_filter.egg-info/requires.txt
+[7.958s] writing top-level names to lidar_filter.egg-info/top_level.txt
+[7.975s] reading manifest file 'lidar_filter.egg-info/SOURCES.txt'
+[7.982s] writing manifest file 'lidar_filter.egg-info/SOURCES.txt'
+[7.991s] running build_ext
+[7.993s] Creating /home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter/lib/python3.6/site-packages/lidar-filter.egg-link (link to .)
+[7.998s] Installing filter_lidar script to /home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter/lib/lidar_filter
+[8.001s] 
+[8.002s] Installed /home/moon/S08P31C208/ROS/buruemi_ws/build/lidar_filter
+[8.003s] running install_data
+[8.155s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/lidar_filter' returned '0': PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/build/lidar_filter/prefix_override:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/moon/S08P31C208/ROS/buruemi_ws/build/lidar_filter/build --no-deps install_data

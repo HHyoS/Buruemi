@@ -1,0 +1,25 @@
+[0.472s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[0.905s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[1.198s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2 --target install -- -j4 -l4
+[1.772s] [36mInstall the project...[0m
+[1.856s] -- Install configuration: ""
+[1.861s] -- Execute custom install script
+[1.873s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.878s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.881s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.885s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.887s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.890s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.904s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.910s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.914s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.919s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.925s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.926s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.927s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.935s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.937s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.941s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.944s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.951s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[4.731s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2 --target install -- -j4 -l4

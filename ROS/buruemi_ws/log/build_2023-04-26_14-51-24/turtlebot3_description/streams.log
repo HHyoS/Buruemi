@@ -1,0 +1,33 @@
+[0.515s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description -- -j4 -l4
+[2.844s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description -- -j4 -l4
+[3.180s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description --target install -- -j4 -l4
+[3.590s] [36mInstall the project...[0m
+[3.701s] -- Install configuration: ""
+[3.704s] -- Execute custom install script
+[3.708s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[3.710s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[3.712s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[3.714s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[3.716s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[3.736s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[3.738s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[3.740s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[3.742s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[3.744s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[3.750s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[3.757s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[3.759s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[3.763s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[3.765s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[3.783s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[3.785s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[3.788s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[3.791s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[3.793s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[3.795s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[3.797s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[3.803s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[3.806s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[3.807s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[3.808s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[3.834s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description --target install -- -j4 -l4
