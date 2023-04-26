@@ -2,6 +2,12 @@
   <div class="menu">
     <a v-for="(작명, i) in 메뉴들" :key="i"> {{ 작명 }}</a>
   </div>
+  <div class="black-bg" v-if="모달창열렸니 == true">
+    <div class="white-bg">
+      <h4>상세페이지</h4>
+      <p>상세페이지내용임</p>
+    </div>
+  </div>
   <div>
     <h4 :style="스타일">XX 원룸</h4>
     <p>{{ price1 }} 만원</p>
@@ -32,6 +38,7 @@ export default {
       products: ["역삼동", "천호동", "마포구"],
       메뉴들: ["Home", "Shop", "About"],
       신고수: 0,
+      모달창열렸니 : true,
     };
   },
   methods: {
@@ -43,6 +50,9 @@ export default {
 </script>
 
 <style>
+#app {
+  text-align: center;
+}
 .menu {
   background: darkslateblue;
   padding: 15px;
@@ -52,4 +62,20 @@ export default {
   color: white;
   padding: 10px;
 }
+body {
+  margin : 0;
+}
+div {
+  box-sizing: border-box;
+}
+.black-bg {
+  width: 100%; height:100%;
+  background: rgba(0,0,0,0.5);
+  position: fixed; padding: 20px;
+}
+.white-bg {
+  width: 100%; background: white;
+  border-radius: 8px;
+  padding: 20px;
+} 
 </style>
