@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/build/gazebo_msgs/rosidl_cmake/srv/GetJointProperties_Response.msg

@@ -1,0 +1,30 @@
+[0.030s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6
+[0.093s] [35m[1mScanning dependencies of target lidar[0m
+[0.123s] [ 33%] Built target pub
+[0.124s] [ 66%] Built target sub
+[0.133s] [ 83%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[2.551s] [100%] [32m[1mLinking CXX executable lidar[0m
+[2.741s] [100%] Built target lidar
+[2.758s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6
+[2.819s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp --target install -- -j6 -l6
+[2.904s] [ 33%] Built target sub
+[2.909s] [ 66%] Built target pub
+[2.919s] [100%] Built target lidar
+[2.940s] [36mInstall the project...[0m
+[2.952s] -- Install configuration: ""
+[2.953s] -- Execute custom install script
+[2.953s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/pub
+[2.957s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/sub
+[2.957s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/lidar
+[2.957s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_cpp
+[2.957s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_cpp
+[2.957s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.sh
+[2.957s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/environment/path.sh
+[2.957s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.bash
+[2.957s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.sh
+[2.958s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.zsh
+[2.958s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/packages/turtle_cpp
+[2.958s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig.cmake
+[2.958s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig-version.cmake
+[2.958s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/package.xml
+[2.965s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp --target install -- -j6 -l6

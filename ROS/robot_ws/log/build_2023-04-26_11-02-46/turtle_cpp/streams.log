@@ -1,0 +1,19 @@
+[0.034s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6
+[0.110s] [35m[1mScanning dependencies of target lidar[0m
+[0.144s] [ 33%] Built target pub
+[0.145s] [ 66%] Built target sub
+[0.151s] [ 83%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[1.166s] [01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/lidar.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ does not name a type
+[1.166s]  private:[01;31m[Ks[m[K
+[1.166s]          [01;31m[K^[m[K
+[1.182s] [01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/lidar.cpp:[m[K In constructor ‘[01m[KLidar::Lidar()[m[K’:
+[1.183s] [01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/lidar.cpp:11:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_callback[m[K’ is not a member of ‘[01m[KLidar[m[K’
+[1.183s]        "/turtlebot3_laserscan/out", 10, std::bind(&Lidar::[01;31m[Kscan_callback[m[K, this, std::placeholders::_1));
+[1.183s]                                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[1.374s] CMakeFiles/lidar.dir/build.make:62: recipe for target 'CMakeFiles/lidar.dir/src/lidar.cpp.o' failed
+[1.374s] make[2]: *** [CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1
+[1.374s] make[1]: *** [CMakeFiles/lidar.dir/all] Error 2
+[1.375s] make: *** [all] Error 2
+[1.375s] CMakeFiles/Makefile2:173: recipe for target 'CMakeFiles/lidar.dir/all' failed
+[1.375s] Makefile:140: recipe for target 'all' failed
+[1.376s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6

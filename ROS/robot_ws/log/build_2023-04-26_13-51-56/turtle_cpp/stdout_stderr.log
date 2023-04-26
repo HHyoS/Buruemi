@@ -1,0 +1,23 @@
+[ 33%] Built target sub
+[ 66%] Built target pub
+[100%] Built target lidar
+[ 33%] Built target pub
+[ 66%] Built target lidar
+[100%] Built target sub
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/pub
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/sub
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/lidar
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_cpp
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_cpp
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/environment/path.sh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.bash
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.sh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/packages/turtle_cpp
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig.cmake
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig-version.cmake
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/package.xml

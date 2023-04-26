@@ -32,7 +32,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include"
   "/opt/ros/dashing/include"
   "/usr/include/opencv"
-  "/home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/include"
   "/opt/ros/dashing/src/gtest_vendor/include"
   "/opt/ros/dashing/src/gtest_vendor/."
   )

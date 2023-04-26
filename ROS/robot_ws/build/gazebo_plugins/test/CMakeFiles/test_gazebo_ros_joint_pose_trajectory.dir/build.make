@@ -118,7 +118,7 @@ test/test_gazebo_ros_joint_pose_trajectory: /usr/lib/x86_64-linux-gnu/libopencv_
 test/test_gazebo_ros_joint_pose_trajectory: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
 test/test_gazebo_ros_joint_pose_trajectory: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
 test/test_gazebo_ros_joint_pose_trajectory: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-test/test_gazebo_ros_joint_pose_trajectory: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/libcv_bridge.so
+test/test_gazebo_ros_joint_pose_trajectory: /opt/ros/dashing/lib/libcv_bridge.so
 test/test_gazebo_ros_joint_pose_trajectory: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_generator_c.so
 test/test_gazebo_ros_joint_pose_trajectory: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_typesupport_c.so
 test/test_gazebo_ros_joint_pose_trajectory: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/libgazebo_msgs__rosidl_typesupport_cpp.so
