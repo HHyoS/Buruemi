@@ -42,7 +42,7 @@ export class RuemiController {
 
             for (let i = this.items.length - 1; i >= 0; i--) {
                 const item = this.items[i];
-                if (item.x < -item.width) {
+                if (item.x < -item.ruemiWidth) {
                     this.items.splice(i, 1);
                 } else {
                     item.draw(ctx, t, dots);
