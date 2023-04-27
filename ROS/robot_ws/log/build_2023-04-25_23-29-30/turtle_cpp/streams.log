@@ -1,0 +1,27 @@
+[0.037s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6
+[0.105s] [35m[1mScanning dependencies of target sub[0m
+[0.120s] [ 50%] Built target pub
+[0.127s] [ 75%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[2.510s] [100%] [32m[1mLinking CXX executable sub[0m
+[2.684s] [100%] Built target sub
+[2.696s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6
+[2.748s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp --target install -- -j6 -l6
+[2.818s] [ 50%] Built target pub
+[2.823s] [100%] Built target sub
+[2.847s] [36mInstall the project...[0m
+[2.858s] -- Install configuration: ""
+[2.858s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/pub
+[2.859s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/sub
+[2.860s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/sub" to ""
+[2.860s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_cpp
+[2.860s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_cpp
+[2.860s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.sh
+[2.860s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/environment/path.sh
+[2.860s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.bash
+[2.860s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.sh
+[2.861s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.zsh
+[2.861s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/packages/turtle_cpp
+[2.861s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig.cmake
+[2.861s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig-version.cmake
+[2.861s] -- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/package.xml
+[2.866s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/opencv_tests:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp --target install -- -j6 -l6

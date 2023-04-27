@@ -1,8 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3/CMakeFiles/install/strip.dir
-/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3/CMakeFiles/install/local.dir
-/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3/CMakeFiles/test.dir
-/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3/CMakeFiles/list_install_components.dir
-/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3/CMakeFiles/uninstall.dir
-/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3/CMakeFiles/edit_cache.dir
-/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3/CMakeFiles/rebuild_cache.dir
-/home/iju/S08P31C208/ROS/robot_ws/src/build/turtlebot3/CMakeFiles/install.dir

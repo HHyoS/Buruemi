@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/vision_opencv/opencv_tests/setup.py

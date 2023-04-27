@@ -215,7 +215,7 @@ libgazebo_ros_video.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
 libgazebo_ros_video.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
 libgazebo_ros_video.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
 libgazebo_ros_video.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-libgazebo_ros_video.so: /home/iju/S08P31C208/ROS/robot_ws/install/cv_bridge/lib/libcv_bridge.so
+libgazebo_ros_video.so: /opt/ros/dashing/lib/libcv_bridge.so
 libgazebo_ros_video.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 libgazebo_ros_video.so: /usr/lib/x86_64-linux-gnu/libignition-math4.so.4.0.0
 libgazebo_ros_video.so: /usr/lib/x86_64-linux-gnu/libuuid.so

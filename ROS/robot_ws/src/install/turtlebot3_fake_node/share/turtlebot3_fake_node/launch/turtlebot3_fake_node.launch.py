@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3_simulations/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py

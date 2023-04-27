@@ -1,0 +1,4 @@
+[01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/sub.cpp:[m[K In member function ‘[01m[Kvoid Sub::listener_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/sub.cpp:55:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+       void listener_callback(const sensor_msgs::msg::LaserScan::SharedPtr [01;35m[Kmsg[m[K)
+                                                                           [01;35m[K^~~[m[K

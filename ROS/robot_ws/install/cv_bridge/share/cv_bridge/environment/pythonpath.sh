@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/cv_bridge/python/ament_cmake_environment_hooks/pythonpath.sh

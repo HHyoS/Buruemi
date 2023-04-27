@@ -1,0 +1,34 @@
+CMake Error at CMakeLists.txt:70 (add_library):
+  Cannot find source file:
+
+    models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:64 (add_library):
+  Cannot find source file:
+
+    models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:67 (add_library):
+  Cannot find source file:
+
+    models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: obstacles
+CMake Error: Cannot determine link language for target "obstacles".
+CMake Error: CMake can not determine linker language for target: obstacle1
+CMake Error: Cannot determine link language for target "obstacle1".
+CMake Error: CMake can not determine linker language for target: obstacle2
+CMake Error: Cannot determine link language for target "obstacle2".
+make: *** [cmake_check_build_system] Error 1
