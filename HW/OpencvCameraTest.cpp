@@ -1,48 +1,44 @@
-
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
-using namespace cv;
-using namespace std;
+int main() {
+  // 웹캠 연결
+  cv::VideoCapture cap(0+cv::CAP_V4L2);
+  cap.set(cv::CAP_PROP_BUFFERSIZE,3);
+  cap.set(cv::CAP_PROP_FRAME_WIDTH, 480);
+  cap.set(cv::CAP_PROP_FRAME_HEIGHT, 360);
+  cap.set(cv::CAP_PROP_FPS,20);
+  int w = 640, h = 480;
 
-int main(int argc, char** argv)
-{
-    // Open the default camera
-    VideoCapture cap(0);
- 
-    // Check if camera opened successfully
-    if(!cap.isOpened()){
-        cout << "Error opening video stream or files" << endl;
-        return -1;
+  while (true) {
+//        clock_t old_t = clock();
+    // 프레임 읽기
+    cv::Mat frame;
+    bool ret = cap.read(frame);
+
+    // 프레임이 제대로 읽혔는지 확인
+    if (!ret) {
+      std::cout << "Error: failed to capture frame" << std::endl;
+      break;
     }
 
-    while(1){
+    // 프레임 출력
+    cv::imshow("frame", frame);
 
-        Mat frame;
 
-        // Grab a new frame from the camera
-        cap.grab();
-
-        // Decode and return the grabbed frame
-        cap.retrieve(frame);
-
-        // If the frame is empty, break immediately
-        if (frame.empty())
-          break;
-
-        // Display the resulting frame
-        imshow( "Frame", frame );
-
-        // Press  ESC on keyboard to exit
-        if(waitKey(1)==27)
-          break;
+    if (cv::waitKey(49) == 'q') {
+      break;
     }
 
-    // When everything done, release the video capture object
-    cap.release();
+//clock_t curr_time = clock();    //Current time
+//clock_t temp_time = (curr_time - old_t) / 1000.0f;    //Calculate to millisecond
+    std::cout << temp_time<<"\n";
+    temp_time /= 1.0f;
+  }
 
-    // Closes all the frames
-    destroyAllWindows();
+  // 리소스 해제
+  cap.release();
+  cv::destroyAllWindows();
 
-    return 0;
+  return 0;
 }
