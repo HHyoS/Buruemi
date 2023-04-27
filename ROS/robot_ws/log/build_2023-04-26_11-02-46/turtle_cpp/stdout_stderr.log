@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target lidar[0m
+[ 33%] Built target pub
+[ 66%] Built target sub
+[ 83%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/lidar.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ does not name a type
+ private:[01;31m[Ks[m[K
+         [01;31m[K^[m[K
+[01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/lidar.cpp:[m[K In constructor ‘[01m[KLidar::Lidar()[m[K’:
+[01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/lidar.cpp:11:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_callback[m[K’ is not a member of ‘[01m[KLidar[m[K’
+       "/turtlebot3_laserscan/out", 10, std::bind(&Lidar::[01;31m[Kscan_callback[m[K, this, std::placeholders::_1));
+                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+CMakeFiles/lidar.dir/build.make:62: recipe for target 'CMakeFiles/lidar.dir/src/lidar.cpp.o' failed
+make[2]: *** [CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lidar.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:173: recipe for target 'CMakeFiles/lidar.dir/all' failed
+Makefile:140: recipe for target 'all' failed

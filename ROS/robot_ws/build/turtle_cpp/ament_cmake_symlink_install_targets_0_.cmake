@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/pub" "/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/sub" "/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/lidar" "TARGETS" "pub" "sub" "lidar" "DESTINATION" "lib/turtle_cpp")
