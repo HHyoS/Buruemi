@@ -10,7 +10,7 @@ int main() {
   cap.set(cv::CAP_PROP_FPS,20);
   int w = 640, h = 480;
 
-  while (true) {
+  while (true) { 
 //        clock_t old_t = clock();
     // 프레임 읽기
     cv::Mat frame;
