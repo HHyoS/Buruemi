@@ -90,6 +90,17 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -123,17 +134,6 @@ test:
 test/fast: test
 
 .PHONY : test/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -219,6 +219,19 @@ lidar/fast:
 	$(MAKE) -f CMakeFiles/lidar.dir/build.make CMakeFiles/lidar.dir/build
 .PHONY : lidar/fast
 
+#=============================================================================
+# Target rules for targets named start_goal_pub
+
+# Build rule for target.
+start_goal_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 start_goal_pub
+.PHONY : start_goal_pub
+
+# fast build rule for target.
+start_goal_pub/fast:
+	$(MAKE) -f CMakeFiles/start_goal_pub.dir/build.make CMakeFiles/start_goal_pub.dir/build
+.PHONY : start_goal_pub/fast
+
 src/lidar.o: src/lidar.cpp.o
 
 .PHONY : src/lidar.o
@@ -273,6 +286,33 @@ src/pub.cpp.s:
 	$(MAKE) -f CMakeFiles/pub.dir/build.make CMakeFiles/pub.dir/src/pub.cpp.s
 .PHONY : src/pub.cpp.s
 
+src/start_goal_pub.o: src/start_goal_pub.cpp.o
+
+.PHONY : src/start_goal_pub.o
+
+# target to build an object file
+src/start_goal_pub.cpp.o:
+	$(MAKE) -f CMakeFiles/start_goal_pub.dir/build.make CMakeFiles/start_goal_pub.dir/src/start_goal_pub.cpp.o
+.PHONY : src/start_goal_pub.cpp.o
+
+src/start_goal_pub.i: src/start_goal_pub.cpp.i
+
+.PHONY : src/start_goal_pub.i
+
+# target to preprocess a source file
+src/start_goal_pub.cpp.i:
+	$(MAKE) -f CMakeFiles/start_goal_pub.dir/build.make CMakeFiles/start_goal_pub.dir/src/start_goal_pub.cpp.i
+.PHONY : src/start_goal_pub.cpp.i
+
+src/start_goal_pub.s: src/start_goal_pub.cpp.s
+
+.PHONY : src/start_goal_pub.s
+
+# target to generate assembly for a file
+src/start_goal_pub.cpp.s:
+	$(MAKE) -f CMakeFiles/start_goal_pub.dir/build.make CMakeFiles/start_goal_pub.dir/src/start_goal_pub.cpp.s
+.PHONY : src/start_goal_pub.cpp.s
+
 src/sub.o: src/sub.cpp.o
 
 .PHONY : src/sub.o
@@ -309,20 +349,24 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... edit_cache"
 	@echo "... pub"
 	@echo "... sub"
 	@echo "... uninstall"
 	@echo "... rebuild_cache"
 	@echo "... lidar"
+	@echo "... start_goal_pub"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... edit_cache"
 	@echo "... src/lidar.o"
 	@echo "... src/lidar.i"
 	@echo "... src/lidar.s"
 	@echo "... src/pub.o"
 	@echo "... src/pub.i"
 	@echo "... src/pub.s"
+	@echo "... src/start_goal_pub.o"
+	@echo "... src/start_goal_pub.i"
+	@echo "... src/start_goal_pub.s"
 	@echo "... src/sub.o"
 	@echo "... src/sub.i"
 	@echo "... src/sub.s"

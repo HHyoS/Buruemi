@@ -466,4 +466,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sub.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/lidar.dir/DependInfo.cmake"
+  "CMakeFiles/start_goal_pub.dir/DependInfo.cmake"
   )

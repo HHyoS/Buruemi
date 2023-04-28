@@ -1,0 +1,130 @@
+[0.109s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server
+[0.253s] -- The C compiler identification is GNU 7.5.0
+[0.345s] -- The CXX compiler identification is GNU 7.5.0
+[0.350s] -- Check for working C compiler: /usr/bin/cc
+[0.525s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.526s] -- Detecting C compiler ABI info
+[0.681s] -- Detecting C compiler ABI info - done
+[0.686s] -- Detecting C compile features
+[1.170s] -- Detecting C compile features - done
+[1.174s] -- Check for working CXX compiler: /usr/bin/c++
+[1.371s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.372s] -- Detecting CXX compiler ABI info
+[1.600s] -- Detecting CXX compiler ABI info - done
+[1.607s] -- Detecting CXX compile features
+[2.318s] -- Detecting CXX compile features - done
+[2.327s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.398s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.398s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.754s] -- Found nav2_common: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[2.757s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.811s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.885s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.890s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.891s] -- Looking for pthread.h
+[3.150s] -- Looking for pthread.h - found
+[3.150s] -- Looking for pthread_create
+[3.409s] -- Looking for pthread_create - not found
+[3.409s] -- Looking for pthread_create in pthreads
+[3.569s] -- Looking for pthread_create in pthreads - not found
+[3.570s] -- Looking for pthread_create in pthread
+[3.698s] -- Looking for pthread_create in pthread - found
+[3.699s] -- Found Threads: TRUE  
+[3.796s] -- Found rclcpp_lifecycle: 0.7.16 (/opt/ros/dashing/share/rclcpp_lifecycle/cmake)
+[3.863s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[3.926s] -- Found yaml_cpp_vendor: 6.0.1 (/opt/ros/dashing/share/yaml_cpp_vendor/cmake)
+[3.927s] -- Setting yaml-cpp_DIR to: '/opt/ros/dashing/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.933s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[3.943s] -- Found nav2_util: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/share/nav2_util/cmake)
+[4.164s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+[4.171s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[4.506s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[4.506s] -- Setting build type to Release as none was specified.
+[6.527s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[6.845s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.848s] -- Check if compiler accepts -pthread
+[7.213s] -- Check if compiler accepts -pthread - yes
+[7.267s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.307s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.307s] -- Configured cppcheck include dirs: /home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_map_server/include
+[7.311s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.312s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.314s] -- Added test 'lint_cmake' to check CMake code style
+[7.316s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.319s] -- Added test 'uncrustify' to check C / C++ code style
+[7.321s] -- Added test 'xmllint' to check XML markup files
+[7.329s] -- Configuring done
+[7.843s] -- Generating done
+[7.863s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server
+[7.873s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server
+[7.875s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server -- -j6 -l6
+[8.126s] [35m[1mScanning dependencies of target gtest_main[0m
+[8.137s] [35m[1mScanning dependencies of target map_server_core[0m
+[8.141s] [35m[1mScanning dependencies of target gtest[0m
+[8.235s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.280s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.474s] [ 15%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/occ_grid_loader.cpp.o[0m
+[10.428s] [ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.572s] [ 21%] Built target gtest_main
+[16.732s] [ 26%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_mode.cpp.o[0m
+[17.378s] [ 31%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver.cpp.o[0m
+[22.870s] [ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[23.088s] [ 36%] Built target gtest
+[26.463s] [ 42%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server.cpp.o[0m
+[31.775s] [ 47%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[32.134s] [ 47%] Built target map_server_core
+[32.202s] [35m[1mScanning dependencies of target map_server[0m
+[32.326s] [ 52%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/main.cpp.o[0m
+[34.524s] [ 57%] [32m[1mLinking CXX executable map_server[0m
+[34.910s] [ 57%] Built target map_server
+[34.961s] [35m[1mScanning dependencies of target test_occ_grid_node[0m
+[35.086s] [ 63%] [32mBuilding CXX object test/component/CMakeFiles/test_occ_grid_node.dir/test_occ_grid_node.cpp.o[0m
+[39.702s] [ 68%] [32mBuilding CXX object test/component/CMakeFiles/test_occ_grid_node.dir/__/test_constants.cpp.o[0m
+[39.760s] [ 73%] [32m[1mLinking CXX executable test_occ_grid_node[0m
+[40.074s] [ 73%] Built target test_occ_grid_node
+[40.107s] [35m[1mScanning dependencies of target test_occ_grid[0m
+[40.227s] [ 78%] [32mBuilding CXX object test/unit/CMakeFiles/test_occ_grid.dir/test_occ_grid.cpp.o[0m
+[45.057s] [ 84%] [32mBuilding CXX object test/unit/CMakeFiles/test_occ_grid.dir/__/test_constants.cpp.o[0m
+[45.190s] [ 89%] [32m[1mLinking CXX executable test_occ_grid[0m
+[45.698s] [ 89%] Built target test_occ_grid
+[45.723s] [35m[1mScanning dependencies of target map_saver[0m
+[45.777s] [ 94%] [32mBuilding CXX object CMakeFiles/map_saver.dir/src/map_saver_cli.cpp.o[0m
+[48.575s] [100%] [32m[1mLinking CXX executable map_saver[0m
+[48.840s] [100%] Built target map_saver
+[48.858s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server -- -j6 -l6
+[48.922s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server --target install -- -j6 -l6
+[49.011s] [ 26%] Built target map_server_core
+[49.046s] [ 36%] Built target gtest_main
+[49.092s] [ 47%] Built target map_saver
+[49.132s] [ 57%] Built target map_server
+[49.166s] [ 68%] Built target gtest
+[49.209s] [ 84%] Built target test_occ_grid
+[49.250s] [100%] Built target test_occ_grid_node
+[49.276s] [36mInstall the project...[0m
+[49.289s] -- Install configuration: "Release"
+[49.289s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[49.289s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[49.289s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/lib/libmap_server_core.so
+[49.290s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[49.290s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver
+[49.293s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver" to ""
+[49.295s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/include/
+[49.295s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/include//nav2_map_server
+[49.295s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/include//nav2_map_server/map_loader.hpp
+[49.296s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[49.296s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/include//nav2_map_server/occ_grid_loader.hpp
+[49.296s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[49.296s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[49.296s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[49.296s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[49.296s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[49.296s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[49.297s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[49.297s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[49.297s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[49.297s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[49.297s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.297s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[49.298s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[49.298s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[49.304s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/nav2_map_server --target install -- -j6 -l6

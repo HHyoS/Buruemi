@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdwb_controller_core.a  CMakeFiles/dwb_controller_core.dir/src/dwb_controller.cpp.o CMakeFiles/dwb_controller_core.dir/src/progress_checker.cpp.o
+/usr/bin/ranlib libdwb_controller_core.a

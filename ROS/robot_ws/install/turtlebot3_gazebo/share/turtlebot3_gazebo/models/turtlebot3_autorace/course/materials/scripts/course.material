@@ -1,14 +1,1 @@
-material course
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture course.png
-      }
-    }
-  }
-}
-
+/home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace/course/materials/scripts/course.material

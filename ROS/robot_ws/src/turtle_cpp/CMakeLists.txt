@@ -22,6 +22,7 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(turtlebot3 REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 add_executable(pub src/pub.cpp)
 ament_target_dependencies(pub rclcpp std_msgs)
@@ -32,11 +33,15 @@ ament_target_dependencies(sub rclcpp std_msgs)
 add_executable(lidar src/lidar.cpp)
 ament_target_dependencies(lidar rclcpp sensor_msgs tf2 geometry_msgs nav_msgs)
 
+add_executable(start_goal_pub src/start_goal_pub.cpp)
+ament_target_dependencies(start_goal_pub rclcpp sensor_msgs tf2 geometry_msgs nav_msgs)
+
 
 install(TARGETS
     pub
     sub
     lidar
+    start_goal_pub
     DESTINATION lib/${PROJECT_NAME}
     )
 

@@ -1,0 +1,164 @@
+[0.089s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_amcl -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl
+[0.249s] -- The C compiler identification is GNU 7.5.0
+[0.357s] -- The CXX compiler identification is GNU 7.5.0
+[0.361s] -- Check for working C compiler: /usr/bin/cc
+[0.523s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.523s] -- Detecting C compiler ABI info
+[0.676s] -- Detecting C compiler ABI info - done
+[0.678s] -- Detecting C compile features
+[1.111s] -- Detecting C compile features - done
+[1.114s] -- Check for working CXX compiler: /usr/bin/c++
+[1.304s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.304s] -- Detecting CXX compiler ABI info
+[1.498s] -- Detecting CXX compiler ABI info - done
+[1.504s] -- Detecting CXX compile features
+[2.319s] -- Detecting CXX compile features - done
+[2.325s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[2.395s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.395s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.853s] -- Found nav2_common: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[2.865s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.922s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.998s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[3.000s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.002s] -- Looking for pthread.h
+[3.238s] -- Looking for pthread.h - found
+[3.239s] -- Looking for pthread_create
+[3.437s] -- Looking for pthread_create - not found
+[3.437s] -- Looking for pthread_create in pthreads
+[3.547s] -- Looking for pthread_create in pthreads - not found
+[3.547s] -- Looking for pthread_create in pthread
+[3.716s] -- Looking for pthread_create in pthread - found
+[3.718s] -- Found Threads: TRUE  
+[3.776s] -- Found rclcpp_lifecycle: 0.7.16 (/opt/ros/dashing/share/rclcpp_lifecycle/cmake)
+[3.827s] -- Found message_filters: 3.1.3 (/opt/ros/dashing/share/message_filters/cmake)
+[3.834s] -- Found tf2_geometry_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_geometry_msgs/cmake)
+[3.872s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+[3.878s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[4.010s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[4.033s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[4.062s] -- Found std_srvs: 0.7.1 (/opt/ros/dashing/share/std_srvs/cmake)
+[4.068s] -- Found nav2_util: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/share/nav2_util/cmake)
+[4.679s] -- Setting build type to Release as none was specified.
+[7.233s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[7.660s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.665s] -- Check if compiler accepts -pthread
+[8.087s] -- Check if compiler accepts -pthread - yes
+[9.950s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.951s] -- Configured cppcheck include dirs: /home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_amcl/include
+[9.960s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.961s] -- Added test 'lint_cmake' to check CMake code style
+[9.962s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.966s] -- Added test 'uncrustify' to check C / C++ code style
+[9.976s] -- Added test 'xmllint' to check XML markup files
+[9.985s] -- Configuring done
+[10.468s] -- Generating done
+[10.473s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl
+[10.489s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_amcl -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl
+[10.490s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl -- -j6 -l6
+[10.715s] [35m[1mScanning dependencies of target pf_lib[0m
+[10.793s] [  3%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o[0m
+[11.289s] [  6%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_pdf.c.o[0m
+[11.545s] [  9%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_vector.c.o[0m
+[11.916s] [ 12%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/eig3.c.o[0m
+[12.315s] [ 15%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_draw.c.o[0m
+[12.450s] [ 18%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf_kdtree.c.o[0m
+[12.917s] [ 21%] [32m[1mLinking C shared library libpf_lib.so[0m
+[13.099s] [ 21%] Built target pf_lib
+[13.176s] [35m[1mScanning dependencies of target gtest_main[0m
+[13.224s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[15.000s] [ 28%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[15.213s] [ 28%] Built target gtest_main
+[15.284s] [35m[1mScanning dependencies of target motions_lib[0m
+[15.362s] [ 31%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/omni_motion_model.cpp.o[0m
+[16.216s] [ 34%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/motion_model.cpp.o[0m
+[16.874s] [ 37%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/differential_motion_model.cpp.o[0m
+[17.641s] [ 40%] [32m[1mLinking CXX shared library libmotions_lib.so[0m
+[18.094s] [ 40%] Built target motions_lib
+[18.152s] [35m[1mScanning dependencies of target sensors_lib[0m
+[18.234s] [ 43%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/laser.cpp.o[0m
+[18.818s] [ 46%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o[0m
+[19.326s] [ 50%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model.cpp.o[0m
+[20.115s] [ 53%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/beam_model.cpp.o[0m
+[20.601s] [ 56%] [32m[1mLinking CXX shared library libsensors_lib.so[0m
+[20.972s] [ 56%] Built target sensors_lib
+[21.060s] [35m[1mScanning dependencies of target gtest[0m
+[21.187s] [ 59%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[33.350s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[33.577s] [ 62%] Built target gtest
+[33.639s] [35m[1mScanning dependencies of target map_lib[0m
+[33.715s] [ 65%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map.c.o[0m
+[33.869s] [ 68%] [32mBuilding CXX object src/map/CMakeFiles/map_lib.dir/map_cspace.cpp.o[0m
+[34.351s] [ 71%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_draw.c.o[0m
+[34.451s] [ 75%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_range.c.o[0m
+[34.543s] [ 78%] [32mBuilding C object src/map/CMakeFiles/map_lib.dir/map_store.c.o[0m
+[34.683s] [ 81%] [32m[1mLinking CXX shared library libmap_lib.so[0m
+[34.893s] [ 81%] Built target map_lib
+[34.917s] [35m[1mScanning dependencies of target test_localization_amcl[0m
+[34.973s] [ 84%] [32mBuilding CXX object test/unit/CMakeFiles/test_localization_amcl.dir/test_localization_amcl.cpp.o[0m
+[35.971s] [ 87%] [32m[1mLinking CXX executable test_localization_amcl[0m
+[36.186s] [ 87%] Built target test_localization_amcl
+[36.230s] [35m[1mScanning dependencies of target amcl_core[0m
+[36.340s] [ 90%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m
+[50.789s] [ 93%] [32m[1mLinking CXX shared library libamcl_core.so[0m
+[51.131s] [ 93%] Built target amcl_core
+[51.150s] [35m[1mScanning dependencies of target amcl[0m
+[51.215s] [ 96%] [32mBuilding CXX object CMakeFiles/amcl.dir/src/main.cpp.o[0m
+[53.534s] [100%] [32m[1mLinking CXX executable amcl[0m
+[53.820s] [100%] Built target amcl
+[53.838s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl -- -j6 -l6
+[53.906s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl --target install -- -j6 -l6
+[54.004s] [ 21%] Built target pf_lib
+[54.037s] [ 28%] Built target gtest_main
+[54.082s] [ 40%] Built target motions_lib
+[54.113s] [ 56%] Built target sensors_lib
+[54.146s] [ 62%] Built target gtest
+[54.180s] [ 81%] Built target map_lib
+[54.225s] [ 87%] Built target test_localization_amcl
+[54.270s] [ 93%] Built target amcl_core
+[54.332s] [100%] Built target amcl
+[54.359s] [36mInstall the project...[0m
+[54.371s] -- Install configuration: "Release"
+[54.371s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/nav2_amcl/amcl
+[54.372s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/nav2_amcl/amcl" to ""
+[54.372s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/libamcl_core.so
+[54.374s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/libamcl_core.so" to ""
+[54.374s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include/
+[54.375s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl
+[54.375s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[54.376s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/sensors
+[54.376s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser
+[54.376s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[54.376s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/pf
+[54.376s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[54.376s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[54.376s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[54.376s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[54.377s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[54.377s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/map
+[54.377s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[54.377s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[54.377s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/motion_model
+[54.377s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[54.378s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[54.378s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[54.378s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[54.378s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[54.378s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[54.379s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[54.379s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[54.379s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[54.380s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[54.380s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[54.380s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[54.380s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.381s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[54.381s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[54.381s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/share/nav2_amcl/package.xml
+[54.382s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/libpf_lib.so
+[54.383s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/libmap_lib.so
+[54.383s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/libmotions_lib.so
+[54.384s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/libmotions_lib.so" to ""
+[54.384s] -- Installing: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/libsensors_lib.so
+[54.384s] -- Set runtime path of "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_amcl/lib/libsensors_lib.so" to ""
+[54.398s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/lib:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/nav2_amcl --target install -- -j6 -l6

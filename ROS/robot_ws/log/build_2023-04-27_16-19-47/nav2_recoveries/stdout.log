@@ -1,0 +1,33 @@
+[ 18%] Built target gtest
+[ 36%] Built target gtest_main
+[ 63%] Built target recoveries
+[ 81%] Built target test_recoveries
+[100%] Built target recoveries_node
+[ 18%] Built target gtest_main
+[ 36%] Built target gtest
+[ 63%] Built target recoveries
+[ 81%] Built target test_recoveries
+[100%] Built target recoveries_node
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/lib/nav2_recoveries/recoveries_node
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/lib/librecoveries.a
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/include/
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/include//nav2_recoveries
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/include//nav2_recoveries/spin.hpp
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/include//nav2_recoveries/recovery.hpp
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/include//nav2_recoveries/back_up.hpp
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/environment/library_path.sh
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/ament_index/resource_index/package_run_dependencies/nav2_recoveries
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/ament_index/resource_index/parent_prefix_path/nav2_recoveries
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/environment/ament_prefix_path.sh
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/environment/path.sh
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.bash
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.sh
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.zsh
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/ament_index/resource_index/packages/nav2_recoveries
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/nav2_recoveriesConfig.cmake
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/nav2_recoveriesConfig-version.cmake
+-- Up-to-date: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_recoveries/share/nav2_recoveries/package.xml
