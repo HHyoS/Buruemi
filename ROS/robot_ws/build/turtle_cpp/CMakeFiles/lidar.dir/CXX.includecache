@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.hpp
+geometry_msgs/msg/twist.hpp
+-
+nav_msgs/msg/odometry.hpp
+-
+rclcpp/rclcpp.hpp
+-
+sensor_msgs/msg/laser_scan.hpp
+-
+tf2/LinearMath/Matrix3x3.h
+-
+tf2/LinearMath/Quaternion.h
+-
+
 /home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/lidar.cpp
-turtlebot3_gazebo/turtlebot3_drive.hpp
-/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/turtlebot3_gazebo/turtlebot3_drive.hpp
+/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.hpp
+-
 memory
 -
 
@@ -2981,18 +2995,4 @@ tf2/visibility_control.h
 /opt/ros/dashing/include/tf2/LinearMath/tf2/visibility_control.h
 
 /opt/ros/dashing/include/tf2/visibility_control.h
-
-/opt/ros/dashing/include/turtlebot3_gazebo/turtlebot3_drive.hpp
-geometry_msgs/msg/twist.hpp
--
-nav_msgs/msg/odometry.hpp
--
-rclcpp/rclcpp.hpp
--
-sensor_msgs/msg/laser_scan.hpp
--
-tf2/LinearMath/Matrix3x3.h
--
-tf2/LinearMath/Quaternion.h
--
 

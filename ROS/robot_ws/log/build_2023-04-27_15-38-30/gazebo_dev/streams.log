@@ -1,0 +1,27 @@
+[0.111s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev
+[0.151s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.236s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.864s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.060s] -- Configuring done
+[1.065s] -- Generating done
+[1.066s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev
+[1.068s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev
+[1.078s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev -- -j6 -l6
+[1.257s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev -- -j6 -l6
+[1.387s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev --target install -- -j6 -l6
+[1.556s] [36mInstall the project...[0m
+[1.576s] -- Install configuration: ""
+[1.576s] -- Execute custom install script
+[1.577s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[1.577s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[1.578s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[1.578s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[1.578s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[1.579s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[1.579s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[1.579s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[1.579s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[1.580s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[1.580s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[1.580s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/package.xml
+[1.586s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_dev --target install -- -j6 -l6

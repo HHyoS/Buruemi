@@ -1,0 +1,17 @@
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/behavior_trees//navigate_w_replanning_and_recovery.xml
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/behavior_trees//navigate_w_replanning.xml
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+/home/iju/S08P31C208/ROS/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml

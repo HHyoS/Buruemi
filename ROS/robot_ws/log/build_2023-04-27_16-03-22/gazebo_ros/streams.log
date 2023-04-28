@@ -1,0 +1,183 @@
+[0.114s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros
+[0.140s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.199s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.581s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.589s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.601s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.641s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.660s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.706s] -- Found gazebo_dev: 3.3.5 (/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev/share/gazebo_dev/cmake)
+[0.774s] -- Boost version: 1.65.1
+[0.775s] -- Found the following Boost libraries:
+[0.775s] --   thread
+[0.775s] --   system
+[0.775s] --   filesystem
+[0.775s] --   program_options
+[0.775s] --   regex
+[0.775s] --   iostreams
+[0.775s] --   date_time
+[0.775s] --   chrono
+[0.776s] --   atomic
+[0.789s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-pthread (found version "3.0.0") 
+[0.807s] -- Boost version: 1.65.1
+[0.809s] -- Looking for OGRE...
+[0.820s] -- Found Ogre Ghadamon (1.9.0)
+[0.820s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.872s] -- Looking for OGRE_Paging...
+[0.872s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.873s] -- Looking for OGRE_Terrain...
+[0.874s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.874s] -- Looking for OGRE_Property...
+[0.874s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.874s] -- Looking for OGRE_RTShaderSystem...
+[0.874s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.874s] -- Looking for OGRE_Volume...
+[0.875s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.875s] -- Looking for OGRE_Overlay...
+[0.875s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.080s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-pthread;-pthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+[1.093s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.098s] -- Checking for module 'libzmq >= 4'
+[1.138s] --   Found libzmq , version 4.2.5
+[1.203s] -- Checking for module 'uuid'
+[1.251s] --   Found uuid, version 2.31.1
+[1.316s] -- Checking for module 'tinyxml2'
+[1.353s] --   Found tinyxml2, version 6.0.0
+[1.400s] -- Looking for dlfcn.h - found
+[1.401s] -- Looking for libdl - found
+[1.401s] -- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+[1.522s] -- Checking for module 'gts'
+[1.541s] --   Found gts, version 0.7.6
+[1.606s] -- Checking for module 'libswscale'
+[1.626s] --   Found libswscale, version 4.8.100
+[1.684s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.704s] --   Found libavdevice , version 57.10.100
+[1.772s] -- Checking for module 'libavformat'
+[1.792s] --   Found libavformat, version 57.83.100
+[1.853s] -- Checking for module 'libavcodec'
+[1.872s] --   Found libavcodec, version 57.107.100
+[1.930s] -- Checking for module 'libavutil'
+[1.949s] --   Found libavutil, version 55.78.100
+[2.009s] -- Checking for module 'jsoncpp'
+[2.027s] --   Found jsoncpp, version 1.7.4
+[2.092s] -- Checking for module 'libzip'
+[2.114s] --   Found libzip, version 1.1.2
+[2.176s] -- Gazebo version: 9.19
+[2.177s] -- Found gazebo_msgs: 3.3.5 (/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/share/gazebo_msgs/cmake)
+[2.230s] -- Found std_srvs: 0.7.1 (/opt/ros/dashing/share/std_srvs/cmake)
+[2.235s] -- Found tinyxml_vendor:  (/opt/ros/dashing/share/tinyxml_vendor/cmake)
+[2.461s] -- Found ament_cmake_gtest: 0.7.6 (/opt/ros/dashing/share/ament_cmake_gtest/cmake)
+[2.462s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[2.611s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.486s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[3.632s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[3.634s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.637s] -- Configured cppcheck include dirs: /home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_ros/include
+[3.640s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.641s] -- Added test 'lint_cmake' to check CMake code style
+[3.642s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.644s] -- Added test 'uncrustify' to check C / C++ code style
+[3.645s] -- Added test 'xmllint' to check XML markup files
+[3.652s] -- Configuring done
+[4.289s] -- Generating done
+[4.296s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros
+[4.308s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_ros -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros
+[4.312s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros -- -j6 -l6
+[4.395s] [  4%] Built target gtest_main
+[4.406s] [  8%] Built target gazebo_ros_utils
+[4.409s] [ 13%] Built target gtest
+[4.419s] [ 20%] Built target gazebo_ros_node
+[4.474s] [ 24%] Built target gazebo_ros_init
+[4.475s] [ 28%] Built target gazebo_ros_factory
+[4.476s] [ 33%] Built target gazebo_ros_state
+[4.522s] [ 37%] Built target multiple_nodes
+[4.523s] [ 42%] Built target test_conversions
+[4.526s] [ 46%] Built target test_utils
+[4.565s] [ 51%] Built target ros_world_plugin
+[4.566s] [ 55%] Built target sdf_node
+[4.578s] [ 60%] Built target args_init
+[4.622s] [ 64%] Built target test_plugins
+[4.639s] [ 68%] Built target test_gazebo_ros_properties
+[4.647s] [ 73%] Built target test_sim_time
+[4.689s] [ 77%] Built target create_node_without_init
+[4.709s] [ 82%] Built target test_gazebo_ros_factory
+[4.722s] [ 86%] Built target test_gazebo_ros_state
+[4.731s] [ 91%] Built target test_node
+[4.739s] [ 95%] Built target test_gazebo_ros_init
+[4.744s] [100%] Built target gazebo_ros_properties
+[4.759s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros -- -j6 -l6
+[4.845s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros --target install -- -j6 -l6
+[4.933s] [  4%] Built target gtest
+[4.939s] [  8%] Built target gtest_main
+[4.945s] [ 15%] Built target gazebo_ros_node
+[4.949s] [ 20%] Built target gazebo_ros_utils
+[5.008s] [ 24%] Built target gazebo_ros_state
+[5.012s] [ 28%] Built target ros_world_plugin
+[5.013s] [ 33%] Built target multiple_nodes
+[5.016s] [ 37%] Built target gazebo_ros_properties
+[5.061s] [ 42%] Built target sdf_node
+[5.069s] [ 46%] Built target test_sim_time
+[5.082s] [ 51%] Built target create_node_without_init
+[5.099s] [ 55%] Built target test_gazebo_ros_properties
+[5.152s] [ 60%] Built target test_node
+[5.153s] [ 64%] Built target test_gazebo_ros_factory
+[5.159s] [ 68%] Built target test_gazebo_ros_init
+[5.172s] [ 73%] Built target test_gazebo_ros_state
+[5.213s] [ 77%] Built target gazebo_ros_init
+[5.221s] [ 82%] Built target test_conversions
+[5.234s] [ 86%] Built target gazebo_ros_factory
+[5.250s] [ 91%] Built target test_utils
+[5.265s] [ 95%] Built target test_plugins
+[5.271s] [100%] Built target args_init
+[5.299s] [36mInstall the project...[0m
+[5.312s] -- Install configuration: ""
+[5.313s] -- Execute custom install script
+[5.313s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.sh
+[5.314s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages/scripts//__init__.py
+[5.314s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages/scripts//gazebo_ros_paths.py
+[5.315s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages/scripts//spawn_entity.py
+[5.315s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/environment/library_path.sh
+[5.315s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/ament_index/resource_index/package_run_dependencies/gazebo_ros
+[5.316s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/ament_index/resource_index/parent_prefix_path/gazebo_ros
+[5.316s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.sh
+[5.316s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/environment/path.sh
+[5.317s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/local_setup.bash
+[5.317s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/local_setup.sh
+[5.318s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/local_setup.zsh
+[5.318s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/ament_index/resource_index/packages/gazebo_ros
+[5.319s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[5.319s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.319s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.319s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig.cmake
+[5.320s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig-version.cmake
+[5.320s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros/package.xml
+[5.321s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/conversions/builtin_interfaces.hpp
+[5.321s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/conversions/gazebo_msgs.hpp
+[5.321s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/conversions/generic.hpp
+[5.321s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/conversions/geometry_msgs.hpp
+[5.321s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/conversions/sensor_msgs.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/executor.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_factory.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_init.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_properties.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_state.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/node.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/testing_utils.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/include/gazebo_ros/utils.hpp
+[5.323s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/gazebo_ros//gazebo_ros_paths.py
+[5.324s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/libgazebo_ros_factory.so
+[5.324s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/libgazebo_ros_init.so
+[5.325s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/libgazebo_ros_node.so
+[5.325s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/libgazebo_ros_properties.so
+[5.325s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/libgazebo_ros_state.so
+[5.326s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/libgazebo_ros_utils.so
+[5.326s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/gazebo_ros//spawn_entity.py
+[5.327s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros//launch/empty_world.launch.py
+[5.327s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros//launch/gazebo.launch.py
+[5.327s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros//launch/gzclient.launch.py
+[5.327s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros//launch/gzserver.launch.py
+[5.327s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/share/gazebo_ros//launch/spawn_entity_demo.launch.py
+[5.369s] Listing '/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages/scripts/'...
+[5.382s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_dev:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_simulations:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_gazebo:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_bringup:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_navigation2:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_fake_node:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_description:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer:/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_examples:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_plugins/lib:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_example:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros/lib/python3.6/site-packages:/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_ros --target install -- -j6 -l6
