@@ -1,0 +1,27 @@
+[0.412s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node -- -j4 -l4
+[0.799s] [ 85%] Built target turtlebot3_node_lib
+[0.915s] [100%] Built target turtlebot3_ros
+[2.216s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node -- -j4 -l4
+[2.581s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node --target install -- -j4 -l4
+[3.088s] [ 85%] Built target turtlebot3_node_lib
+[3.306s] [100%] Built target turtlebot3_ros
+[3.414s] [36mInstall the project...[0m
+[3.466s] -- Install configuration: ""
+[3.468s] -- Execute custom install script
+[3.469s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[3.470s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[3.472s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[3.473s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[3.474s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[3.477s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[3.480s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[3.484s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[3.486s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[3.488s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[3.492s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[3.500s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[3.501s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.509s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[3.510s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[3.511s] -- Up-to-date symlink: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[3.951s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node --target install -- -j4 -l4
