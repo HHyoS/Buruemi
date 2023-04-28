@@ -1,0 +1,88 @@
+[0.383s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node
+[2.659s] -- The C compiler identification is GNU 7.5.0
+[2.660s] -- The CXX compiler identification is GNU 7.5.0
+[2.660s] -- Check for working C compiler: /usr/bin/cc
+[2.661s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.662s] -- Detecting C compiler ABI info
+[2.662s] -- Detecting C compiler ABI info - done
+[2.663s] -- Detecting C compile features
+[3.823s] -- Detecting C compile features - done
+[3.832s] -- Check for working CXX compiler: /usr/bin/c++
+[4.368s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.369s] -- Detecting CXX compiler ABI info
+[4.848s] -- Detecting CXX compiler ABI info - done
+[4.888s] -- Detecting CXX compile features
+[7.748s] -- Detecting CXX compile features - done
+[7.773s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[7.940s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[7.941s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.562s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.741s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/dashing/share/dynamixel_sdk/cmake)
+[9.768s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[9.835s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[10.078s] -- Found message_filters: 3.1.3 (/opt/ros/dashing/share/message_filters/cmake)
+[10.103s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[10.159s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[10.263s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[10.270s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.276s] -- Looking for pthread.h
+[11.100s] -- Looking for pthread.h - found
+[11.103s] -- Looking for pthread_create
+[11.749s] -- Looking for pthread_create - not found
+[11.751s] -- Looking for pthread_create in pthreads
+[12.150s] -- Looking for pthread_create in pthreads - not found
+[12.151s] -- Looking for pthread_create in pthread
+[12.672s] -- Looking for pthread_create in pthread - found
+[12.682s] -- Found Threads: TRUE  
+[12.910s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[12.975s] -- Found std_srvs: 0.7.1 (/opt/ros/dashing/share/std_srvs/cmake)
+[13.001s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[13.030s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[13.327s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/dashing/share/turtlebot3_msgs/cmake)
+[15.038s] -- Configuring done
+[15.240s] -- Generating done
+[15.256s] -- Build files have been written to: /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node
+[16.488s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node
+[16.502s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node -- -j4 -l4
+[16.705s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[17.263s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[17.316s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[17.332s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[17.382s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[33.671s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[48.138s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[55.795s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[61.861s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[63.971s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[65.270s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[88.569s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[95.493s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[97.659s] [ 85%] Built target turtlebot3_node_lib
+[97.699s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[97.867s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[104.100s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[107.142s] [100%] Built target turtlebot3_ros
+[107.189s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node -- -j4 -l4
+[107.365s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node --target install -- -j4 -l4
+[107.651s] [ 85%] Built target turtlebot3_node_lib
+[107.764s] [100%] Built target turtlebot3_ros
+[107.836s] [36mInstall the project...[0m
+[107.869s] -- Install configuration: ""
+[107.870s] -- Execute custom install script
+[107.873s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[107.905s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[107.939s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[107.973s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[108.006s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[108.040s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[108.073s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[108.106s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[108.140s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[108.173s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[108.207s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[108.241s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[108.275s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[108.308s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[108.342s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[108.376s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[108.428s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node --target install -- -j4 -l4

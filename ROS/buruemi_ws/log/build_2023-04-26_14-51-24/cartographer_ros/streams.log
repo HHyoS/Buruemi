@@ -1,0 +1,24 @@
+[0.093s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros_msgs:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_bringup:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer:/home/moon/S08P31C208/ROS/buruemi_ws/install/ld08_driver:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/cartographer_ros/cartographer_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros
+[0.148s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.293s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.601s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.722s] CMake Error at CMakeLists.txt:30 (find_package):
+[1.724s]   By not providing "Findcartographer.cmake" in CMAKE_MODULE_PATH this project
+[1.726s]   has asked CMake to find a package configuration file provided by
+[1.728s]   "cartographer", but CMake did not find one.
+[1.733s] 
+[1.737s]   Could not find a package configuration file provided by "cartographer" with
+[1.739s]   any of the following names:
+[1.740s] 
+[1.742s]     cartographerConfig.cmake
+[1.744s]     cartographer-config.cmake
+[1.746s] 
+[1.747s]   Add the installation prefix of "cartographer" to CMAKE_PREFIX_PATH or set
+[1.750s]   "cartographer_DIR" to a directory containing one of the above files.  If
+[1.754s]   "cartographer" provides a separate development package or SDK, be sure it
+[1.754s]   has been installed.
+[1.755s] 
+[1.755s] 
+[1.763s] -- Configuring incomplete, errors occurred!
+[1.764s] See also "/home/moon/S08P31C208/ROS/buruemi_ws/build/cartographer_ros/CMakeFiles/CMakeOutput.log".
+[1.793s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/cartographer_ros' returned '1': AMENT_PREFIX_PATH=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros_msgs:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_bringup:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_navigation2:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer:/home/moon/S08P31C208/ROS/buruemi_ws/install/ld08_driver:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing LD_LIBRARY_PATH=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/cartographer_ros/cartographer_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/cartographer_ros
