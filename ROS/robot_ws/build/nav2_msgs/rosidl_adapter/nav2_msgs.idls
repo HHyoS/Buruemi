@@ -1,0 +1,15 @@
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:msg/Costmap.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:msg/CostmapMetaData.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:msg/Path.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:msg/VoxelGrid.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:srv/GetCostmap.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:srv/ClearCostmapExceptRegion.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:srv/ClearCostmapAroundRobot.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:srv/ClearEntireCostmap.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:action/BackUp.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:action/ComputePathToPose.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:action/FollowPath.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:action/NavigateToPose.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:action/Spin.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:action/DummyRecovery.idl
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_adapter/nav2_msgs:action/RandomCrawl.idl

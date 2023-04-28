@@ -1,0 +1,45 @@
+[0.187s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk
+[0.245s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.677s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.842s] -- Configuring done
+[0.849s] -- Generating done
+[0.850s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk
+[0.859s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk
+[0.862s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk -- -j6 -l6
+[1.077s] [100%] Built target dynamixel_sdk
+[1.108s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk -- -j6 -l6
+[1.371s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk --target install -- -j6 -l6
+[1.526s] [100%] Built target dynamixel_sdk
+[1.566s] [36mInstall the project...[0m
+[1.586s] -- Install configuration: ""
+[1.587s] -- Execute custom install script
+[1.594s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.595s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.595s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.595s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.595s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.595s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.595s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.596s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.596s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.596s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.596s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.596s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.596s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.596s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.599s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.599s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.599s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.599s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.599s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.605s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.605s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.606s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.607s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.608s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.609s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.609s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.609s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.609s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.716s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk --target install -- -j6 -l6

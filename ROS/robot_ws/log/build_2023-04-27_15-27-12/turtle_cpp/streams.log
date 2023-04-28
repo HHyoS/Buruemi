@@ -1,0 +1,103 @@
+[1.350s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6
+[1.504s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.661s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.237s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.309s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.685s] -- Boost version: 1.65.1
+[2.685s] -- Found the following Boost libraries:
+[2.685s] --   thread
+[2.686s] --   system
+[2.686s] --   filesystem
+[2.686s] --   program_options
+[2.686s] --   regex
+[2.686s] --   iostreams
+[2.686s] --   date_time
+[2.686s] --   chrono
+[2.687s] --   atomic
+[2.729s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+[2.797s] -- Boost version: 1.65.1
+[2.800s] -- Looking for OGRE...
+[2.822s] -- Found Ogre Ghadamon (1.9.0)
+[2.823s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.014s] -- Looking for OGRE_Paging...
+[3.014s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.015s] -- Looking for OGRE_Terrain...
+[3.015s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.019s] -- Looking for OGRE_Property...
+[3.019s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.020s] -- Looking for OGRE_RTShaderSystem...
+[3.020s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.020s] -- Looking for OGRE_Volume...
+[3.021s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.021s] -- Looking for OGRE_Overlay...
+[3.021s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.372s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+[3.385s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.417s] -- Checking for module 'libzmq >= 4'
+[3.515s] --   Found libzmq , version 4.2.5
+[3.916s] -- Checking for module 'uuid'
+[4.026s] --   Found uuid, version 2.31.1
+[4.387s] -- Checking for module 'tinyxml2'
+[4.505s] --   Found tinyxml2, version 6.0.0
+[4.753s] -- Looking for dlfcn.h - found
+[4.755s] -- Looking for libdl - found
+[4.767s] -- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+[5.297s] -- Checking for module 'gts'
+[5.379s] --   Found gts, version 0.7.6
+[5.698s] -- Checking for module 'libswscale'
+[5.801s] --   Found libswscale, version 4.8.100
+[6.079s] -- Checking for module 'libavdevice >= 56.4.100'
+[6.196s] --   Found libavdevice , version 57.10.100
+[6.628s] -- Checking for module 'libavformat'
+[6.749s] --   Found libavformat, version 57.83.100
+[7.169s] -- Checking for module 'libavcodec'
+[7.309s] --   Found libavcodec, version 57.107.100
+[7.572s] -- Checking for module 'libavutil'
+[7.674s] --   Found libavutil, version 55.78.100
+[8.014s] -- Checking for module 'jsoncpp'
+[8.108s] --   Found jsoncpp, version 1.7.4
+[8.396s] -- Checking for module 'libzip'
+[8.478s] --   Found libzip, version 1.1.2
+[8.671s] -- Found gazebo_ros_pkgs: 3.3.5 (/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/cmake)
+[8.672s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[8.683s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[8.729s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[8.749s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[8.751s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.849s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[8.896s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[8.904s] -- Found turtlebot3: 2.1.4 (/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3/share/turtlebot3/cmake)
+[9.253s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[9.806s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[9.806s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.806s] -- Configured cppcheck include dirs: 
+[9.807s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.807s] -- Added test 'lint_cmake' to check CMake code style
+[9.809s] -- Added test 'uncrustify' to check C / C++ code style
+[9.812s] -- Added test 'xmllint' to check XML markup files
+[9.834s] -- Configuring done
+[9.953s] -- Generating done
+[9.961s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp
+[10.104s] [35m[1mScanning dependencies of target pub[0m
+[10.167s] [35m[1mScanning dependencies of target sub[0m
+[10.227s] [ 16%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[10.236s] [35m[1mScanning dependencies of target lidar[0m
+[10.329s] [ 33%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[10.337s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[10.373s] [01m[K/home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp/src/lidar.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot3_gazebo/turtlebot3_drive.hpp: No such file or directory
+[10.373s]  #include [01;31m[K"turtlebot3_gazebo/turtlebot3_drive.hpp"[m[K
+[10.373s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.373s] compilation terminated.
+[10.375s] CMakeFiles/lidar.dir/build.make:62: recipe for target 'CMakeFiles/lidar.dir/src/lidar.cpp.o' failed
+[10.375s] make[2]: *** [CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1
+[10.375s] CMakeFiles/Makefile2:173: recipe for target 'CMakeFiles/lidar.dir/all' failed
+[10.375s] make[1]: *** [CMakeFiles/lidar.dir/all] Error 2
+[10.375s] make[1]: *** Waiting for unfinished jobs....
+[15.338s] [ 66%] [32m[1mLinking CXX executable sub[0m
+[15.697s] [ 66%] Built target sub
+[16.420s] [ 83%] [32m[1mLinking CXX executable pub[0m
+[17.010s] [ 83%] Built target pub
+[17.012s] Makefile:140: recipe for target 'all' failed
+[17.013s] make: *** [all] Error 2
+[17.020s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6

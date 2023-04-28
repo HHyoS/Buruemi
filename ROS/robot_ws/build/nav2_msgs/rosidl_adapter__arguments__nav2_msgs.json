@@ -1,0 +1,20 @@
+{
+  "package_name": "nav2_msgs",
+  "non_idl_tuples": [
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:msg/Costmap.msg",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:msg/CostmapMetaData.msg",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:msg/Path.msg",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:msg/VoxelGrid.msg",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:srv/GetCostmap.srv",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:srv/ClearCostmapExceptRegion.srv",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:srv/ClearCostmapAroundRobot.srv",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:srv/ClearEntireCostmap.srv",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:action/BackUp.action",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:action/ComputePathToPose.action",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:action/FollowPath.action",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:action/NavigateToPose.action",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:action/Spin.action",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:action/DummyRecovery.action",
+    "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs:action/RandomCrawl.action"
+  ]
+}

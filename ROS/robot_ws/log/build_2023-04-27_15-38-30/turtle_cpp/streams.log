@@ -1,0 +1,109 @@
+[0.140s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp
+[0.168s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.228s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.628s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.638s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.650s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.832s] -- Boost version: 1.65.1
+[0.832s] -- Found the following Boost libraries:
+[0.832s] --   thread
+[0.833s] --   system
+[0.833s] --   filesystem
+[0.833s] --   program_options
+[0.833s] --   regex
+[0.833s] --   iostreams
+[0.833s] --   date_time
+[0.834s] --   chrono
+[0.834s] --   atomic
+[0.861s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+[0.902s] -- Boost version: 1.65.1
+[0.906s] -- Looking for OGRE...
+[0.925s] -- Found Ogre Ghadamon (1.9.0)
+[0.926s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.997s] -- Looking for OGRE_Paging...
+[0.997s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.998s] -- Looking for OGRE_Terrain...
+[0.998s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.998s] -- Looking for OGRE_Property...
+[0.998s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.998s] -- Looking for OGRE_RTShaderSystem...
+[0.999s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.999s] -- Looking for OGRE_Volume...
+[0.999s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.000s] -- Looking for OGRE_Overlay...
+[1.000s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.176s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+[1.188s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.195s] -- Checking for module 'libzmq >= 4'
+[1.228s] --   Found libzmq , version 4.2.5
+[1.292s] -- Checking for module 'uuid'
+[1.311s] --   Found uuid, version 2.31.1
+[1.409s] -- Checking for module 'tinyxml2'
+[1.432s] --   Found tinyxml2, version 6.0.0
+[1.480s] -- Looking for dlfcn.h - found
+[1.480s] -- Looking for libdl - found
+[1.485s] -- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+[1.683s] -- Checking for module 'gts'
+[1.731s] --   Found gts, version 0.7.6
+[1.833s] -- Checking for module 'libswscale'
+[1.852s] --   Found libswscale, version 4.8.100
+[1.923s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.940s] --   Found libavdevice , version 57.10.100
+[2.037s] -- Checking for module 'libavformat'
+[2.077s] --   Found libavformat, version 57.83.100
+[2.186s] -- Checking for module 'libavcodec'
+[2.229s] --   Found libavcodec, version 57.107.100
+[2.366s] -- Checking for module 'libavutil'
+[2.422s] --   Found libavutil, version 55.78.100
+[2.513s] -- Checking for module 'jsoncpp'
+[2.536s] --   Found jsoncpp, version 1.7.4
+[2.627s] -- Checking for module 'libzip'
+[2.653s] --   Found libzip, version 1.1.2
+[2.737s] -- Found gazebo_ros_pkgs: 3.3.5 (/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/cmake)
+[2.738s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[2.747s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[2.765s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[2.777s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.780s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.809s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[2.825s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[2.831s] -- Found turtlebot3: 2.1.4 (/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3/share/turtlebot3/cmake)
+[2.925s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[3.058s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[3.059s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.059s] -- Configured cppcheck include dirs: 
+[3.059s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.059s] -- Added test 'lint_cmake' to check CMake code style
+[3.059s] -- Added test 'uncrustify' to check C / C++ code style
+[3.060s] -- Added test 'xmllint' to check XML markup files
+[3.073s] -- Configuring done
+[3.132s] -- Generating done
+[3.133s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp
+[3.167s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtle_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp
+[3.172s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6
+[3.324s] [ 33%] Built target pub
+[3.413s] [ 66%] Built target lidar
+[3.462s] [100%] Built target sub
+[3.609s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp -- -j6 -l6
+[3.764s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp --target install -- -j6 -l6
+[3.959s] [ 33%] Built target pub
+[4.002s] [ 66%] Built target lidar
+[4.044s] [100%] Built target sub
+[4.080s] [36mInstall the project...[0m
+[4.094s] -- Install configuration: ""
+[4.095s] -- Execute custom install script
+[4.096s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/pub
+[4.096s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/sub
+[4.097s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/lib/turtle_cpp/lidar
+[4.097s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_cpp
+[4.098s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_cpp
+[4.098s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/environment/ament_prefix_path.sh
+[4.100s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/environment/path.sh
+[4.100s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.bash
+[4.100s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.sh
+[4.101s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/local_setup.zsh
+[4.101s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/ament_index/resource_index/packages/turtle_cpp
+[4.101s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig.cmake
+[4.102s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/cmake/turtle_cppConfig-version.cmake
+[4.102s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtle_cpp/share/turtle_cpp/package.xml
+[4.112s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp --target install -- -j6 -l6
