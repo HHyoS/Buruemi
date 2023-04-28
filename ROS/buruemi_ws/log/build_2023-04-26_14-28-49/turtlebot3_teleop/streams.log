@@ -1,0 +1,32 @@
+[8.381s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_teleop': PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_teleop/prefix_override:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_teleop/build --no-deps install_data
+[11.860s] /home/moon/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.861s]   % (opt, underscore_opt)
+[12.543s] running develop
+[12.544s] /home/moon/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[12.548s]   EasyInstallDeprecationWarning,
+[12.560s] /home/moon/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.561s]   setuptools.SetuptoolsDeprecationWarning,
+[13.126s] /home/moon/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[13.127s]   PkgResourcesDeprecationWarning,
+[14.592s] running egg_info
+[14.594s] creating turtlebot3_teleop.egg-info
+[14.594s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[14.595s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[14.596s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[14.597s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[14.598s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[14.618s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[14.637s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[14.642s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[14.665s] running build_ext
+[14.666s] Creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/lib/python3.6/site-packages/turtlebot3-teleop.egg-link (link to .)
+[14.671s] Installing teleop_keyboard script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[14.687s] 
+[14.688s] Installed /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_teleop
+[14.689s] running install_data
+[14.698s] creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/share/ament_index
+[14.699s] creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[14.700s] creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[14.701s] copying resource/turtlebot3_teleop -> /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[14.704s] copying package.xml -> /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[17.268s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_teleop/prefix_override:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_teleop/build --no-deps install_data
