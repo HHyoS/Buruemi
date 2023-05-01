@@ -1,2 +1,1 @@
-
-nav_2d_msgs/Twist2D[] twists
+/home/iju/S08P31C208/ROS/robot_ws/build/dwb_msgs/rosidl_cmake/srv/GenerateTwists_Response.msg

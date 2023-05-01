@@ -1,4 +1,1 @@
-nav_2d_msgs/Pose2DStamped pose
-nav_2d_msgs/Twist2D velocity
-nav_2d_msgs/Path2D global_plan
-Trajectory2D traj
+/home/iju/S08P31C208/ROS/robot_ws/build/dwb_msgs/rosidl_cmake/srv/ScoreTrajectory_Request.msg

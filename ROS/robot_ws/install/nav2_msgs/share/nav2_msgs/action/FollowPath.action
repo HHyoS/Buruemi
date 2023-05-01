@@ -1,7 +1,1 @@
-#goal definition
-nav2_msgs/Path path
----
-#result definition
-std_msgs/Empty result
----
-#feedback
+/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_msgs/action/FollowPath.action
