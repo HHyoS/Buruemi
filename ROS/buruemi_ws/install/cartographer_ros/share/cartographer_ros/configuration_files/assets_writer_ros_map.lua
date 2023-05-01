@@ -1,1 +1,0 @@
-/home/moon/S08P31C208/ROS/buruemi_ws/src/cartographer_ros/cartographer_ros/configuration_files/assets_writer_ros_map.lua

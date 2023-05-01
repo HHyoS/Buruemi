@@ -1,0 +1,45 @@
+[0.300s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer
+[2.446s] -- The C compiler identification is GNU 7.5.0
+[2.446s] -- The CXX compiler identification is GNU 7.5.0
+[2.447s] -- Check for working C compiler: /usr/bin/cc
+[2.447s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.448s] -- Detecting C compiler ABI info
+[2.449s] -- Detecting C compiler ABI info - done
+[2.449s] -- Detecting C compile features
+[3.261s] -- Detecting C compile features - done
+[3.271s] -- Check for working CXX compiler: /usr/bin/c++
+[3.695s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.699s] -- Detecting CXX compiler ABI info
+[4.138s] -- Detecting CXX compiler ABI info - done
+[4.159s] -- Detecting CXX compile features
+[6.606s] -- Detecting CXX compile features - done
+[6.642s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[6.960s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[6.961s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.548s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.265s] -- Configuring done
+[9.275s] -- Generating done
+[9.281s] -- Build files have been written to: /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer
+[9.306s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer
+[9.309s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer -- -j4 -l4
+[9.878s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer -- -j4 -l4
+[10.167s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer --target install -- -j4 -l4
+[10.634s] [36mInstall the project...[0m
+[10.751s] -- Install configuration: ""
+[10.754s] -- Execute custom install script
+[10.759s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[10.818s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[10.918s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[11.009s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[11.101s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[11.179s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[11.251s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[11.333s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[11.398s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[11.467s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[11.574s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[11.652s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[11.745s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[11.844s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[11.938s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[12.031s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_cartographer --target install -- -j4 -l4
