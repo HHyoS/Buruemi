@@ -1,3 +1,1 @@
-# Clears the costmap except a rectangular region specified by reset_distance
-
-float32 reset_distance
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_cmake/srv/ClearCostmapExceptRegion_Request.msg

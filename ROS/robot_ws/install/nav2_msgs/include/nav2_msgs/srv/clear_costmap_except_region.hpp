@@ -1,10 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef NAV2_MSGS__SRV__CLEAR_COSTMAP_EXCEPT_REGION_HPP_
-#define NAV2_MSGS__SRV__CLEAR_COSTMAP_EXCEPT_REGION_HPP_
-
-#include "nav2_msgs/srv/clear_costmap_except_region__struct.hpp"
-#include "nav2_msgs/srv/clear_costmap_except_region__traits.hpp"
-
-#endif  // NAV2_MSGS__SRV__CLEAR_COSTMAP_EXCEPT_REGION_HPP_
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/srv/clear_costmap_except_region.hpp

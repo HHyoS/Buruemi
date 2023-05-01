@@ -1,0 +1,30 @@
+[0.052s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer
+[0.105s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.185s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.525s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.718s] -- Configuring done
+[0.722s] -- Generating done
+[0.739s] -- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer
+[0.886s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer
+[0.892s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer -- -j6 -l6
+[1.045s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer -- -j6 -l6
+[1.233s] Invoking command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer --target install -- -j6 -l6
+[1.494s] [36mInstall the project...[0m
+[1.518s] -- Install configuration: ""
+[1.518s] -- Execute custom install script
+[1.523s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.523s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.524s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.524s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.524s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.525s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.525s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.526s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.526s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.526s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.526s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.527s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.527s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.527s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.528s] -- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.539s] Invoked command in '/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_teleop:/home/iju/S08P31C208/ROS/robot_ws/install/turtlebot3_example:/opt/ros/dashing PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ /usr/bin/cmake --build /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_cartographer --target install -- -j6 -l6

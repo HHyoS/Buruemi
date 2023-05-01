@@ -1,0 +1,64 @@
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 0.7.16 (/opt/ros/dashing/share/rclcpp_lifecycle/cmake)
+-- Found nav2_util: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/share/nav2_util/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_dynamic_params/include
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/nav2_dynamic_params
+[ 12%] Built target nav2_dynamic_params
+[ 25%] Built target gtest_main
+[ 37%] Built target test_dynamic_params_helper
+[ 50%] Built target example_nav2_dynamic_params_client
+[ 62%] Built target example_nav2_dynamic_params_validator
+[ 75%] Built target gtest
+[ 87%] Built target test_dynamic_params_validator
+[100%] Built target test_dynamic_params_client_exec
+[ 12%] Built target nav2_dynamic_params
+[ 25%] Built target gtest_main
+[ 37%] Built target test_dynamic_params_helper
+[ 50%] Built target example_nav2_dynamic_params_client
+[ 62%] Built target example_nav2_dynamic_params_validator
+[ 75%] Built target gtest
+[ 87%] Built target test_dynamic_params_validator
+[100%] Built target test_dynamic_params_client_exec
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/lib/libnav2_dynamic_params.so
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/lib/nav2_dynamic_params/example_nav2_dynamic_params_validator
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/lib/nav2_dynamic_params/example_nav2_dynamic_params_client
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/include//nav2_dynamic_params/dynamic_params_client.hpp
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/include//nav2_dynamic_params/dynamic_params_validator.hpp
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/lib/nav2_dynamic_params/test_dynamic_params_helper
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/environment/library_path.sh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/ament_index/resource_index/package_run_dependencies/nav2_dynamic_params
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/ament_index/resource_index/parent_prefix_path/nav2_dynamic_params
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/environment/path.sh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/local_setup.bash
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/local_setup.sh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/local_setup.zsh
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/ament_index/resource_index/packages/nav2_dynamic_params
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/cmake/nav2_dynamic_paramsConfig.cmake
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/cmake/nav2_dynamic_paramsConfig-version.cmake
+-- Up-to-date symlink: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_dynamic_params/share/nav2_dynamic_params/package.xml

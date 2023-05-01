@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -Werror -Wno-deprecate
 
 CXX_DEFINES = -Dconversions_EXPORTS
 
-CXX_INCLUDES = -I/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include -I/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/include -I/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/include -I/home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_msgs/include -I/opt/ros/dashing/include -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include -I/home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_msgs/include -I/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/include -I/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/include -I/opt/ros/dashing/include -isystem /usr/include/eigen3 
 

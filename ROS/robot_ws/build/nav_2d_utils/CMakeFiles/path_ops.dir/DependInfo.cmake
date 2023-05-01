@@ -11,9 +11,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include"
+  "/home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_msgs/include"
   "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/include"
   "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/include"
-  "/home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_msgs/include"
   "/opt/ros/dashing/include"
   "/usr/include/eigen3"
   )
