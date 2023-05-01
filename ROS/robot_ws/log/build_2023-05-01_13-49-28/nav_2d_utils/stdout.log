@@ -1,0 +1,61 @@
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found nav_2d_msgs: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+-- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+-- Found nav2_msgs: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found nav2_util: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/share/nav2_util/cmake)
+-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/nav_2d_utils
+[35m[1mScanning dependencies of target conversions[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/conversions.dir/src/conversions.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libconversions.so[0m
+[ 50%] Built target conversions
+[35m[1mScanning dependencies of target path_ops[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/path_ops.dir/src/path_ops.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpath_ops.so[0m
+[100%] Built target path_ops
+[ 50%] Built target conversions
+[100%] Built target path_ops
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/lib/libconversions.so
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/lib/libpath_ops.so
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/share/nav_2d_utils/package.xml

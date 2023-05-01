@@ -1,0 +1,34 @@
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found navigation2: 0.2.6 (/home/iju/S08P31C208/ROS/robot_ws/install/navigation2/share/navigation2/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/iju/S08P31C208/ROS/robot_ws/build/nav2_bringup
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/bt_navigator.xml
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/gazebo_rviz2_launch.py
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/map.pgm
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/map.yaml
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/nav2_bringup_launch.py
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/nav2_default_view.rviz
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/nav2_localization_launch.py
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/nav2_navigation_launch.py
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/nav2_params.yaml
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/nav2_simulation_launch.py
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/turtlebot3_world.pgm
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/launch/turtlebot3_world.yaml
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/ament_index/resource_index/package_run_dependencies/nav2_bringup
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/ament_index/resource_index/parent_prefix_path/nav2_bringup
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/environment/path.sh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/local_setup.bash
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/local_setup.sh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/local_setup.zsh
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/ament_index/resource_index/packages/nav2_bringup
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/cmake/nav2_bringupConfig.cmake
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/cmake/nav2_bringupConfig-version.cmake
+-- Symlinking: /home/iju/S08P31C208/ROS/robot_ws/install/nav2_bringup/share/nav2_bringup/package.xml

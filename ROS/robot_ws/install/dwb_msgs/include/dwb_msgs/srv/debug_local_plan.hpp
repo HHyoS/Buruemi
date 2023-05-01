@@ -1,10 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef DWB_MSGS__SRV__DEBUG_LOCAL_PLAN_HPP_
-#define DWB_MSGS__SRV__DEBUG_LOCAL_PLAN_HPP_
-
-#include "dwb_msgs/srv/debug_local_plan__struct.hpp"
-#include "dwb_msgs/srv/debug_local_plan__traits.hpp"
-
-#endif  // DWB_MSGS__SRV__DEBUG_LOCAL_PLAN_HPP_
+/home/iju/S08P31C208/ROS/robot_ws/build/dwb_msgs/rosidl_generator_cpp/dwb_msgs/srv/debug_local_plan.hpp

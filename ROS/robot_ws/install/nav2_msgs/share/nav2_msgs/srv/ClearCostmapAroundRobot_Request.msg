@@ -1,4 +1,1 @@
-# Clears the costmap within a window around the robot
-
-float32 window_size_x
-float32 window_size_y
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_cmake/srv/ClearCostmapAroundRobot_Request.msg

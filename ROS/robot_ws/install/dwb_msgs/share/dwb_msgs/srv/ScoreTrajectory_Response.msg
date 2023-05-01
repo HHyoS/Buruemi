@@ -1,2 +1,1 @@
-
-TrajectoryScore score
+/home/iju/S08P31C208/ROS/robot_ws/build/dwb_msgs/rosidl_cmake/srv/ScoreTrajectory_Response.msg

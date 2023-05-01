@@ -20,13 +20,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins/include"
   "/home/iju/S08P31C208/ROS/robot_ws/install/dwb_core/include"
-  "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_costmap_2d/include"
   "/home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_utils/include"
-  "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/include"
-  "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_voxel_grid/include"
-  "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/include"
   "/home/iju/S08P31C208/ROS/robot_ws/install/dwb_msgs/include"
   "/home/iju/S08P31C208/ROS/robot_ws/install/nav_2d_msgs/include"
+  "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_costmap_2d/include"
+  "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_voxel_grid/include"
+  "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_util/include"
+  "/home/iju/S08P31C208/ROS/robot_ws/install/nav2_msgs/include"
   "/opt/ros/dashing/include"
   "/usr/include/eigen3"
   )

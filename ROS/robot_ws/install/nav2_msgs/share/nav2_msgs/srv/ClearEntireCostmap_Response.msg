@@ -1,2 +1,1 @@
-
-std_msgs/Empty response
+/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_cmake/srv/ClearEntireCostmap_Response.msg
