@@ -1,1 +1,0 @@
-/home/moon/S08P31C208/ROS/buruemi_ws/src/cartographer_ros/cartographer_ros/configuration_files/backpack_2d_server.lua

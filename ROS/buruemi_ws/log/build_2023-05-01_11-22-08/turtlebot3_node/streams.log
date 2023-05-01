@@ -1,0 +1,64 @@
+[0.476s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node
+[4.357s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.362s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.364s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/dashing/share/dynamixel_sdk/cmake)
+[4.364s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[4.373s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[4.373s] -- Found message_filters: 3.1.3 (/opt/ros/dashing/share/message_filters/cmake)
+[4.374s] -- Found nav_msgs: 0.7.1 (/opt/ros/dashing/share/nav_msgs/cmake)
+[4.374s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[4.375s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[4.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.376s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[4.376s] -- Found std_srvs: 0.7.1 (/opt/ros/dashing/share/std_srvs/cmake)
+[4.377s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[4.378s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[4.378s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/dashing/share/turtlebot3_msgs/cmake)
+[4.379s] -- Configuring done
+[4.443s] -- Generating done
+[4.450s] -- Build files have been written to: /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node
+[4.462s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node
+[4.473s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node -- -j4 -l4
+[4.770s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[5.283s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[5.363s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[5.367s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[5.375s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[15.913s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[17.902s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[18.069s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[18.299s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[18.606s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[28.609s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[32.781s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[52.965s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[54.106s] [ 85%] Built target turtlebot3_node_lib
+[54.598s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[55.601s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[61.881s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[64.963s] [100%] Built target turtlebot3_ros
+[65.009s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node -- -j4 -l4
+[65.207s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node --target install -- -j4 -l4
+[65.528s] [ 85%] Built target turtlebot3_node_lib
+[65.643s] [100%] Built target turtlebot3_ros
+[65.712s] [36mInstall the project...[0m
+[65.747s] -- Install configuration: ""
+[65.749s] -- Execute custom install script
+[65.752s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[65.786s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[65.818s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[65.855s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[65.888s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[65.921s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[65.954s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[65.986s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[66.019s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[66.052s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[66.084s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[66.117s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[66.149s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.182s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[66.215s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[66.249s] -- Symlinking: /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[66.301s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake --build /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_node --target install -- -j4 -l4

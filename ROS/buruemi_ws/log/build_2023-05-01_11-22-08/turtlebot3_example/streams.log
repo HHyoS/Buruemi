@@ -1,0 +1,35 @@
+[7.136s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example': PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example/prefix_override:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example/build --no-deps install_data
+[10.691s] /home/moon/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[10.691s]   % (opt, underscore_opt)
+[11.316s] running develop
+[11.319s] /home/moon/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[11.320s]   EasyInstallDeprecationWarning,
+[11.336s] /home/moon/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.337s]   setuptools.SetuptoolsDeprecationWarning,
+[12.101s] /home/moon/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[12.101s]   PkgResourcesDeprecationWarning,
+[13.253s] running egg_info
+[13.255s] creating turtlebot3_example.egg-info
+[13.269s] writing turtlebot3_example.egg-info/PKG-INFO
+[13.271s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[13.272s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[13.274s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[13.276s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[13.292s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[13.316s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[13.332s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[13.349s] running build_ext
+[13.356s] Creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/python3.6/site-packages/turtlebot3-example.egg-link (link to .)
+[13.368s] Installing turtlebot3_obstacle_detection script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[13.370s] Installing turtlebot3_patrol_client script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[13.372s] Installing turtlebot3_patrol_server script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[13.374s] Installing turtlebot3_position_control script to /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/turtlebot3_example
+[13.377s] 
+[13.388s] Installed /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example
+[13.390s] running install_data
+[13.392s] creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/share/ament_index
+[13.393s] creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/share/ament_index/resource_index
+[13.395s] creating /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[13.396s] copying resource/turtlebot3_example -> /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[13.399s] copying package.xml -> /home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/share/turtlebot3_example
+[13.814s] Invoked command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example' returned '0': PYTHONPATH=/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example/prefix_override:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_example/build --no-deps install_data

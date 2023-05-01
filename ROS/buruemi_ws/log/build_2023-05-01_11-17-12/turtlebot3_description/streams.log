@@ -1,0 +1,23 @@
+[0.530s] Invoking command in '/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_teleop:/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_example:/home/moon/S08P31C208/ROS/buruemi_ws/install/lidar_filter:/opt/ros/dashing /usr/bin/cmake /home/moon/S08P31C208/ROS/buruemi_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/buruemi_ws/install/turtlebot3_description
+[4.503s] -- The C compiler identification is GNU 7.5.0
+[4.513s] -- The CXX compiler identification is GNU 7.5.0
+[4.515s] -- Check for working C compiler: /usr/bin/cc
+[4.516s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.517s] -- Detecting C compiler ABI info
+[4.518s] -- Detecting C compiler ABI info - done
+[4.519s] -- Detecting C compile features
+[4.520s] -- Detecting C compile features - done
+[4.522s] -- Check for working CXX compiler: /usr/bin/c++
+[4.523s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.528s] -- Detecting CXX compiler ABI info
+[4.529s] -- Detecting CXX compiler ABI info - done
+[4.530s] -- Detecting CXX compile features
+[4.542s] -- Detecting CXX compile features - done
+[4.572s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[4.745s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.747s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.045s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.225s] -- Found urdf: 2.2.0 (/opt/ros/dashing/share/urdf/cmake)
+[6.974s] -- Configuring done
+[6.987s] -- Generating done
+[6.990s] -- Build files have been written to: /home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_description
