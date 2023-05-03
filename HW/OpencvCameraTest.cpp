@@ -14,9 +14,9 @@ int main() {
 //        clock_t old_t = clock();
     // 프레임 읽기
     cv::Mat frame;
-    bool ret = cap.read(frame);
+    bool ret = cap.read(frame,cv::CAP_V4L2);
 
-    // 프레임이 제대로 읽혔는지 확인
+    // 프레임이 제대로 읽혔는지   확인
     if (!ret) {
       std::cout << "Error: failed to capture frame" << std::endl;
       break;
