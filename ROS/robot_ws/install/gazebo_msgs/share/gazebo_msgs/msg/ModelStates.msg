@@ -1,1 +1,4 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_msgs/msg/ModelStates.msg
+# broadcast all model states in world frame
+string[] name                 # model names
+geometry_msgs/Pose[] pose     # desired pose in world frame
+geometry_msgs/Twist[] twist   # desired twist in world frame

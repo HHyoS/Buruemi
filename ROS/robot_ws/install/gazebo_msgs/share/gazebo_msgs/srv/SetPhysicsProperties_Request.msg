@@ -1,1 +1,5 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/SetPhysicsProperties_Request.msg
+# sets pose and twist of a link.  All children link poses/twists of the URDF tree will be updated accordingly
+float64 time_step                  # dt in seconds
+float64 max_update_rate            # throttle maximum physics update rate
+geometry_msgs/Vector3 gravity      # gravity vector (e.g. earth ~[0,0,-9.81])
+gazebo_msgs/ODEPhysics ode_config  # configurations for ODE

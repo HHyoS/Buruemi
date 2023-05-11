@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -Wextra
 
 C_DEFINES = -Dgazebo_msgs__python_EXPORTS
 
-C_INCLUDES = -I/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_c -I/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_py -I/usr/include/python3.6m -I/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_typesupport_c -I/opt/ros/dashing/include 
+C_INCLUDES = -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_c -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_py -I/usr/include/python3.6m -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_typesupport_c -I/opt/ros/dashing/include 
 

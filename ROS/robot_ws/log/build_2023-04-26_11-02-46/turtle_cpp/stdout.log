@@ -1,7 +1,0 @@
-[35m[1mScanning dependencies of target lidar[0m
-[ 33%] Built target pub
-[ 66%] Built target sub
-[ 83%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
-CMakeFiles/lidar.dir/build.make:62: recipe for target 'CMakeFiles/lidar.dir/src/lidar.cpp.o' failed
-CMakeFiles/Makefile2:173: recipe for target 'CMakeFiles/lidar.dir/all' failed
-Makefile:140: recipe for target 'all' failed

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_navigation2
+CMAKE_SOURCE_DIR = /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_navigation2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2
+CMAKE_BINARY_DIR = /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_navigation2 /home/iju/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_navigation2 /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 /home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_navigation2 /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/turtlebot3/turtlebot3_navigation2 /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2 /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtlebot3_navigation2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

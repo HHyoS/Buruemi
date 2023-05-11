@@ -1,1 +1,3 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/SpawnEntity_Response.msg
+
+bool success                      # Return true if spawned successfully.
+string status_message             # Comments if available.

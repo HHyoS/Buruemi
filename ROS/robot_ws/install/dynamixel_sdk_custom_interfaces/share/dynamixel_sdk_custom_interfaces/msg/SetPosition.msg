@@ -1,1 +1,3 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+# Messages
+uint8 id
+int32 position

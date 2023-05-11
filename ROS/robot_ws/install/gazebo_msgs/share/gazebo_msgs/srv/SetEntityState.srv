@@ -1,1 +1,4 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_msgs/srv/SetEntityState.srv
+gazebo_msgs/EntityState state   # Entity state to set to.
+                                # Be sure to fill all fields, values of zero have meaning.
+---
+bool success                    # Return true if setting state was successful.

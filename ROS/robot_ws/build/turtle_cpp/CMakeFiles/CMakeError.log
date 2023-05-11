@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp
+Change Dir: /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_413de/fast"
-/usr/bin/make -f CMakeFiles/cmTC_413de.dir/build.make CMakeFiles/cmTC_413de.dir/build
-make[1]: Entering directory '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_413de.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_413de.dir/CheckSymbolExists.c.o   -c /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_413de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_413de.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_413de.dir/CheckSymbolExists.c.o  -o cmTC_413de 
-CMakeFiles/cmTC_413de.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_4b2e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b2e3.dir/build.make CMakeFiles/cmTC_4b2e3.dir/build
+make[1]: Entering directory '/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b2e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4b2e3.dir/CheckSymbolExists.c.o   -c /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4b2e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b2e3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4b2e3.dir/CheckSymbolExists.c.o  -o cmTC_4b2e3 
+CMakeFiles/cmTC_4b2e3.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_413de.dir/build.make:97: recipe for target 'cmTC_413de' failed
-make[1]: *** [cmTC_413de] Error 1
-make[1]: Leaving directory '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_413de/fast' failed
-make: *** [cmTC_413de/fast] Error 2
+CMakeFiles/cmTC_4b2e3.dir/build.make:97: recipe for target 'cmTC_4b2e3' failed
+make[1]: *** [cmTC_4b2e3] Error 1
+make[1]: Leaving directory '/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4b2e3/fast' failed
+make: *** [cmTC_4b2e3/fast] Error 2
 
-File /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp
+Change Dir: /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_87bdb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_87bdb.dir/build.make CMakeFiles/cmTC_87bdb.dir/build
-make[1]: Entering directory '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_87bdb.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_87bdb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_87bdb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87bdb.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_87bdb.dir/CheckFunctionExists.c.o  -o cmTC_87bdb -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_22940/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22940.dir/build.make CMakeFiles/cmTC_22940.dir/build
+make[1]: Entering directory '/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22940.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_22940.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22940
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22940.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_22940.dir/CheckFunctionExists.c.o  -o cmTC_22940 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_87bdb.dir/build.make:97: recipe for target 'cmTC_87bdb' failed
-make[1]: *** [cmTC_87bdb] Error 1
-make[1]: Leaving directory '/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_87bdb/fast' failed
-make: *** [cmTC_87bdb/fast] Error 2
+CMakeFiles/cmTC_22940.dir/build.make:97: recipe for target 'cmTC_22940' failed
+make[1]: *** [cmTC_22940] Error 1
+make[1]: Leaving directory '/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtle_cpp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_22940/fast' failed
+make: *** [cmTC_22940/fast] Error 2
 
 

@@ -1,1 +1,10 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_cpp/gazebo_msgs/srv/get_model_list.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef GAZEBO_MSGS__SRV__GET_MODEL_LIST_HPP_
+#define GAZEBO_MSGS__SRV__GET_MODEL_LIST_HPP_
+
+#include "gazebo_msgs/srv/get_model_list__struct.hpp"
+#include "gazebo_msgs/srv/get_model_list__traits.hpp"
+
+#endif  // GAZEBO_MSGS__SRV__GET_MODEL_LIST_HPP_

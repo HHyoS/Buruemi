@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/navigation2/ament_cmake_core/navigation2Config.cmake

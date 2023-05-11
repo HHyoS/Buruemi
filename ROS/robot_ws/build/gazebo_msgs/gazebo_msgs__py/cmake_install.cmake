@@ -1,8 +1,8 @@
-# Install script for directory: /home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/gazebo_msgs__py
+# Install script for directory: /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/gazebo_msgs/gazebo_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/iju/S08P31C208/ROS/robot_ws/install/gazebo_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/iju/new_ws/S08P31C208/ROS/robot_ws/install/gazebo_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

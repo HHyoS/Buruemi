@@ -1,9 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/install/strip.dir
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/install.dir
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/nav2_behavior_tree.dir
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/edit_cache.dir
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/uninstall.dir
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/install/local.dir
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/test.dir
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/list_install_components.dir
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_behavior_tree/CMakeFiles/rebuild_cache.dir

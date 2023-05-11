@@ -1,1 +1,3 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/DeleteModel_Request.msg
+# Deprecated, kept for ROS 1 bridge.
+# Use DeleteEntity
+string model_name                 # name of the Gazebo Model to be deleted

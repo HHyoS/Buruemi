@@ -1,1 +1,1 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/BodyRequest_Request.msg
+string body_name   # name of the body requested. body names are prefixed by model name, e.g. pr2::base_link

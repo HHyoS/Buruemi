@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -Ddynamixel_sdk_custom_interfaces__rosidl_typesupport_c_EXPORTS
 
-CXX_INCLUDES = -I/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_typesupport_c -I/opt/ros/dashing/include -I/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c 
+CXX_INCLUDES = -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_typesupport_c -I/opt/ros/dashing/include -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c 
 

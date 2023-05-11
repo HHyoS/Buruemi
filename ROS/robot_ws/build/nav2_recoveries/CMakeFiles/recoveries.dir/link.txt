@@ -1,2 +1,0 @@
-/usr/bin/ar qc librecoveries.a  CMakeFiles/recoveries.dir/src/spin.cpp.o CMakeFiles/recoveries.dir/src/back_up.cpp.o
-/usr/bin/ranlib librecoveries.a

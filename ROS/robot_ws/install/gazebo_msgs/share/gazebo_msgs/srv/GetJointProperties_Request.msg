@@ -1,1 +1,1 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/GetJointProperties_Request.msg
+string joint_name                    # Scoped name of joint

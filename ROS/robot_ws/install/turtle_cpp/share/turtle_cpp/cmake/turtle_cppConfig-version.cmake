@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/turtle_cpp/ament_cmake_core/turtle_cppConfig-version.cmake

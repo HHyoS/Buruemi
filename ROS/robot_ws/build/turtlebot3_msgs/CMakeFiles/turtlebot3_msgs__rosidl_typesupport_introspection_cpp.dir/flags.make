@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -Dturtlebot3_msgs__rosidl_typesupport_introspection_cpp_EXPORTS
 
-CXX_INCLUDES = -I/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_msgs/rosidl_generator_cpp -I/opt/ros/dashing/include 
+CXX_INCLUDES = -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/turtlebot3_msgs/rosidl_generator_cpp -I/opt/ros/dashing/include 
 

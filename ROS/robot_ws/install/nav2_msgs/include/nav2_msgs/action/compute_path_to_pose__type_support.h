@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/compute_path_to_pose__type_support.h
