@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/moon/S08P31C208/ROS/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/moon/S08P31C208/ROS/catkin_ws/install -G Unix Makefiles
