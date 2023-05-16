@@ -16,7 +16,7 @@ class App {
       new Hill("#FFAAA6", 0.5, 8),
       new Hill("#FF8C94", 1.4, 6),
     ];
-    const num = 10;
+    const num = 20;
     this.ruemiController = new RuemiController();
 
     window.addEventListener("resize", this.resize.bind(this), false);
