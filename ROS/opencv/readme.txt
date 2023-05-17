@@ -3,3 +3,5 @@
 230503 ORB_SLAM2 빌드 완료
 320504 Calibration & searching fisheye Parameter
 320508 면접 준비.
+230512 display qt install and simple tutorial on linux
+230516 QT coding
