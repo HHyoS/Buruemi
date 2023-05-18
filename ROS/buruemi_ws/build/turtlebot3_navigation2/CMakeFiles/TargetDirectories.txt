@@ -1,8 +1,0 @@
-/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2/CMakeFiles/install/strip.dir
-/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2/CMakeFiles/install/local.dir
-/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2/CMakeFiles/test.dir
-/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2/CMakeFiles/list_install_components.dir
-/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2/CMakeFiles/uninstall.dir
-/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2/CMakeFiles/edit_cache.dir
-/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2/CMakeFiles/rebuild_cache.dir
-/home/moon/S08P31C208/ROS/buruemi_ws/build/turtlebot3_navigation2/CMakeFiles/install.dir
