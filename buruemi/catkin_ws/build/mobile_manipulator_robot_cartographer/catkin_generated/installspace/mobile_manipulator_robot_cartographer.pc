@@ -1,8 +1,0 @@
-prefix=/home/moon/catkin_ws/install
-
-Name: mobile_manipulator_robot_cartographer
-Description: Description of mobile_manipulator_robot_cartographer
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
