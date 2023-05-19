@@ -1,35 +1,113 @@
-# Git convention
+# README
 
 # 🐢부르미🐢
 
 ### vSLAM기반 자율주행 서비스 로봇
 
+![르미.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/%25EB%25A5%25B4%25EB%25AF%25B8.gif)
+
+## ✨ 프로젝트 소개
+
 VSLAM기반 자율주행 서비스 로봇은 실내에서 물건을 전달해주는 수요응답형 서비스 로봇입니다. 로봇은 실내 지도작성, 위치추정, 장애물 회피 기능을 수행합니다. 천장을 보는 카메라를 이용하여 VSLAM을 사용하기에 빠르게 지도작성을 수행하고 초기세팅시간이 짧은 장점이 있습니다. 구체적인 서비스는 호출, 배송, 취소, 대기열 등록이 있습니다.
 
-### Git Convention
+## 🙂 기획 배경
 
-`RTOS` `ROS` `FE` `BE`  각각 `워크스페이스` 를 업로드합니다.
+---
+
+보급형 서비스 로봇을 만들기 위해 개발
+
+## 😎 서비스 기능
+
+---
+
+1. 로봇 호출용 웹페이지 (사용 대기열 등록)
+2. vSLAM(ORB SLAM3)과 LiDAR를 통한 자율주행
+3. GUI 용 로봇 스크린
+4. 음성 메시지 녹음 및 출력
+
+## 👀 Overview
+
+---
+
+### 1. Main
+
+![main.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/main.gif)
+
+### 2. Record, Remove
+
+![record, remove.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/record_remove.gif)
+
+### 3. Signup
+
+![signup.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/signup.gif)
+
+### 4. Order
+
+![order.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/order.gif)
+
+### 5. Login
+
+![login.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/login.gif)
+
+## 🦄 기대효과 & 발전방향
+
+---
+
+### 기대효과
+
+1. Marker-less 방식
+마커 없는 완전자율 주행 방식
+초기 세팅이 빠르다.
+2. 값싼 센서로 저렴한 로봇
+카메라(5만원) + 라이다(20만원)
+보급형 서빙 로봇 탄생
+
+### 발전방향
+
+1. VI SLAM 을 통한 자율주행
+Visual + Inertial 사용하여 더 정밀한 위치 추적
+2. BLDC 모터를 탑제하여 더 조용하고 더 빠른 자율주행
+
+## 💻 Tech Stack
+
+---
+
+![Untitled](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/Untitled.png)
+
+![Untitled](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/Untitled%201.png)
+
+![Untitled](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/Untitled%202.png)
+
+## Backend( VM-Ubuntu18.04 )
+
+---
 
 ```bash
-ROS / catkin_ws   <-- workspace 
+cd server
+nodemon server.js
 ```
 
-git flow 전략을 사용합니다.
+### Frontend
 
-- master : 제품으로 출시될 수 있는 브랜치
-- develop : 다음 출시 버전을 개발하는 브랜치
-- feature : 기능을 개발하는 브랜치
-- release : 이번 출시 버전을 준비하는 브랜치
-- hotfix : 출시 버전에서 발생한 버그를 수정 하는 브랜치
+---
 
 ```bash
-feature/ROS_control
-feature/RTOS_motor
-feature/FE_test
+cd client
+npm start
 ```
 
-커밋 메시지는 한글로 자유롭게
+## 🤼‍♂️ Author
 
-```bash
-git commit -m "문병수 바보"
-```
+---
+
+Team Leader & 자율주행, 디자인: 🐯김지호
+
+만능왕 : 🐱 문병수
+
+영상처리 : 🐶 송하엽
+
+임베디드 : 🐺 황효상
+
+자율주행 : 🐱 지이주
+
+Full Stack : 🦁 배중권
