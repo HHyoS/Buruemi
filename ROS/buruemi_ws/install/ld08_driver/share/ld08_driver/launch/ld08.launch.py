@@ -1,1 +1,0 @@
-/home/moon/S08P31C208/ROS/buruemi_ws/src/ld08_driver/launch/ld08.launch.py
