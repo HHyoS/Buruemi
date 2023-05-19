@@ -131,6 +131,18 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/moon/S08P31C208/ROS/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/turtlebot3/turtlebot3/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/turtlebot3_msgs/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/turtlebot3/turtlebot3_navigation/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/DynamixelSDK/ros/dynamixel_sdk/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/DynamixelSDK/ros/dynamixel_sdk_examples/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/hyo/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/ld08_driver/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/turtlebot3/turtlebot3_bringup/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/turtlebot3/turtlebot3_example/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
+  include("/home/moon/S08P31C208/ROS/catkin_ws/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
 
 endif()
 
