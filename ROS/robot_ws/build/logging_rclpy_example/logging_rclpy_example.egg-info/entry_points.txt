@@ -1,3 +1,0 @@
-[console_scripts]
-logging_example = logging_rclpy_example.logging_example.main:main
-

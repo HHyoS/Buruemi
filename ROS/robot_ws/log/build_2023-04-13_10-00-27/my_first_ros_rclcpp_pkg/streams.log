@@ -1,8 +1,0 @@
-[0.014s] Invoking command in '/home/ssafy/robot_ws/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ssafy/robot_ws/src/my_first_ros_rclcpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/install/my_first_ros_rclcpp_pkg
-[0.053s] CMake Error at CMakeLists.txt:39:
-[0.053s]   Parse error.  Expected a command name, got unquoted argument with text
-[0.053s]   "[출처]".
-[0.053s] 
-[0.053s] 
-[0.056s] -- Configuring incomplete, errors occurred!
-[0.058s] Invoked command in '/home/ssafy/robot_ws/build/my_first_ros_rclcpp_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ssafy/robot_ws/src/my_first_ros_rclcpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/install/my_first_ros_rclcpp_pkg
