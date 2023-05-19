@@ -4,7 +4,7 @@
 
 ### vSLAM기반 자율주행 서비스 로봇
 
-![르미.gif](README/%25EB%25A5%25B4%25EB%25AF%25B8.gif)
+![르미.gif](README/Buruemi.gif)
 
 ## ✨ 프로젝트 소개
 
