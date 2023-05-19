@@ -4,7 +4,7 @@
 
 ### vSLAM기반 자율주행 서비스 로봇
 
-![르미.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/%25EB%25A5%25B4%25EB%25AF%25B8.gif)
+![르미.gif](README/%25EB%25A5%25B4%25EB%25AF%25B8.gif)
 
 ## ✨ 프로젝트 소개
 
@@ -31,23 +31,23 @@ VSLAM기반 자율주행 서비스 로봇은 실내에서 물건을 전달해주
 
 ### 1. Main
 
-![main.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/main.gif)
+![main.gif](README/main.gif)
 
 ### 2. Record, Remove
 
-![record, remove.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/record_remove.gif)
+![record, remove.gif](README/record_remove.gif)
 
 ### 3. Signup
 
-![signup.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/signup.gif)
+![signup.gif](README/signup.gif)
 
 ### 4. Order
 
-![order.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/order.gif)
+![order.gif](README/order.gif)
 
 ### 5. Login
 
-![login.gif](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/login.gif)
+![login.gif](README/login.gif)
 
 ## 🦄 기대효과 & 발전방향
 
@@ -72,11 +72,11 @@ Visual + Inertial 사용하여 더 정밀한 위치 추적
 
 ---
 
-![Untitled](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/Untitled.png)
+![Untitled](README/Untitled.png)
 
-![Untitled](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/Untitled%201.png)
+![Untitled](README/Untitled%201.png)
 
-![Untitled](README%202a7a1a9dd4f74ef5b027e38d6bc839c6/Untitled%202.png)
+![Untitled](README/Untitled%202.png)
 
 ## Backend( VM-Ubuntu18.04 )
 
