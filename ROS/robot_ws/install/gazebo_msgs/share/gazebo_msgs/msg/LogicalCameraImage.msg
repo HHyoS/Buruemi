@@ -1,1 +1,3 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_msgs/msg/LogicalCameraImage.msg
+geometry_msgs/Pose camera_pose                # pose of the logical camera
+string[] model_name                           # name of the detected model
+geometry_msgs/Pose[] model_pose               # relative pose of the detected model

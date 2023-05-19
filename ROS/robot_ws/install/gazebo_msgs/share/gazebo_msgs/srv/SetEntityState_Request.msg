@@ -1,1 +1,2 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/SetEntityState_Request.msg
+gazebo_msgs/EntityState state   # Entity state to set to.
+                                # Be sure to fill all fields, values of zero have meaning.

@@ -1,1 +1,2 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/gazebo_ros_pkgs/gazebo_msgs/msg/ContactsState.msg
+std_msgs/Header header                                   # stamp
+gazebo_msgs/ContactState[] states            # array of geom pairs in contact

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/iju/S08P31C208/ROS/robot_ws/build/nav_2d_utils/libconversions.so" "/home/iju/S08P31C208/ROS/robot_ws/build/nav_2d_utils/libpath_ops.so" "TARGETS" "conversions" "path_ops" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/nav_2d_utils")

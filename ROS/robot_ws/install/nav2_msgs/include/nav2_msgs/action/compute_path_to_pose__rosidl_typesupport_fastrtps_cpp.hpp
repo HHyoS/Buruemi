@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/nav2_msgs/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/compute_path_to_pose__rosidl_typesupport_fastrtps_cpp.hpp

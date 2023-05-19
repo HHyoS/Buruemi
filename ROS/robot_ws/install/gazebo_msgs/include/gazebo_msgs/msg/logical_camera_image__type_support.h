@@ -1,1 +1,33 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_c/gazebo_msgs/msg/logical_camera_image__type_support.h
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from gazebo_msgs:msg/LogicalCameraImage.idl
+// generated code does not contain a copyright notice
+
+#ifndef GAZEBO_MSGS__MSG__LOGICAL_CAMERA_IMAGE__TYPE_SUPPORT_H_
+#define GAZEBO_MSGS__MSG__LOGICAL_CAMERA_IMAGE__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "gazebo_msgs/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_generator_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_gazebo_msgs
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  gazebo_msgs,
+  msg,
+  LogicalCameraImage
+)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // GAZEBO_MSGS__MSG__LOGICAL_CAMERA_IMAGE__TYPE_SUPPORT_H_

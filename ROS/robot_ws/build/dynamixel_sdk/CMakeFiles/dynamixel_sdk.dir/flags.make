@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wpedantic -Wno-unused-but-set-variable -Wno-u
 
 CXX_DEFINES = -Ddynamixel_sdk_EXPORTS
 
-CXX_INCLUDES = -I/home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk/include/dynamixel_sdk 
+CXX_INCLUDES = -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk/include/dynamixel_sdk 
 

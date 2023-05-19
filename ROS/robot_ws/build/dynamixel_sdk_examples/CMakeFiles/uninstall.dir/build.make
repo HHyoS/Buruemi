@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples
+CMAKE_SOURCE_DIR = /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples
+CMAKE_BINARY_DIR = /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_example
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

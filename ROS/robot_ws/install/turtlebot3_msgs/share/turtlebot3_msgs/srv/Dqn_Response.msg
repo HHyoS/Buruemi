@@ -1,1 +1,4 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/turtlebot3_msgs/rosidl_cmake/srv/Dqn_Response.msg
+
+float32[] state
+float32 reward
+bool done

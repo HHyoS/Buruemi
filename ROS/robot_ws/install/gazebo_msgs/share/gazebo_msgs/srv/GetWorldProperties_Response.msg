@@ -1,1 +1,6 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/GetWorldProperties_Response.msg
+
+float64 sim_time                     # current sim time
+string[] model_names                 # list of models in the world
+bool rendering_enabled               # if X is used
+bool success                         # return true if get successful
+string status_message                # comments if available

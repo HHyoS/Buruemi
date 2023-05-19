@@ -1,1 +1,2 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/GetWorldProperties_Request.msg
+# Deprecated, kept for ROS 1 bridge.
+# Use GetModelList
