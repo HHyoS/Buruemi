@@ -1,9 +1,0 @@
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/install/strip.dir
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/install/local.dir
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/install.dir
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/list_install_components.dir
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/rebuild_cache.dir
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/edit_cache.dir
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/test.dir
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/testbot_description_uninstall.dir
-/home/ssafy/robot_ws/build/testbot_description/CMakeFiles/uninstall.dir

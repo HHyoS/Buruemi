@@ -1,111 +1,207 @@
 const express = require("express");
-const http = require("http");
-const socketIo = require("socket.io");
-const path = require("path");
-const mysql = require("mysql2");
-
+const WebSocket = require("ws");
+const pool = require("./utility/db");
 const app = express();
-const server = http.createServer(app);
-const io = socketIo(server);
+const logger = require("./utility/winston.js");
+const https = require("https");
+const credentials = require("./utility/credentials.js");
+const cors = require("cors");
+const fs = require("fs");
+const path = require("path");
 
-const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "ssafy",
-  database: "my_db",
-});
-
-// 주문 대기열
-let queue = [];
-
+app.use(express.static("public"));
+app.use(cors());
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, "public")));
 
-// 회원가입
-app.post("/signup", (req, res) => {
-  const { userId, password } = req.body;
-  const selectSql = `SELECT * FROM users WHERE userId = ?`;
-  db.query(selectSql, [userId], (err, result) => {
-    if (err) {
-      console.error(err);
-      return res.status(500).send("Server error");
+app.get("/", async (req, res) => {
+  let target = "exit.html";
+
+  if (
+    req.query.moonisgoodman ===
+    "RURANFCLWL123TJDDMLWJDTLA345TNTLSWPRK567CLRNRVUDCJSGK789"
+  ) {
+    target = "index.html";
+  }
+  return res.sendFile(target, {
+    root: "./views",
+  });
+});
+
+app.post("/api/signup", async (req, res) => {
+  var state = false;
+  var msg = "signUp >> ID Or Name duplicated";
+  var status = 400;
+  logger.info(JSON.stringify(req.body));
+
+  const name = await pool.query(
+    "SELECT * FROM Broomi.USER WHERE NAME = ? OR ID = ?",
+    [req.body.NAME, req.body.ID]
+  );
+
+  if (name[0].length == 0) {
+    try {
+      const data = await pool.query(
+        "INSERT INTO Broomi.USER (ID, NAME, PASS) VALUES (?, ?, ?)",
+        [req.body.ID, req.body.NAME, req.body.PASS]
+      );
+      state = true;
+      msg = "signUp >> okisbacon";
+      status = 200;
+    } catch (error) {
+      msg = "signUp >> ID Or Name duplicated";
     }
-    if (result.length > 0) {
-      // 이미 존재하는 userId인 경우
-      return res.status(409).send("User already exists");
+  }
+
+  logger.info(msg);
+
+  return res.json({
+    success: state,
+    message: msg,
+    status: status,
+    name: req.body.NAME,
+  });
+});
+
+app.post("/api/login", async (req, res) => {
+  let state = false;
+  let index = 4;
+  let msg = "login >> ID does not exist";
+  let status = 400;
+  let name = "";
+  logger.info(JSON.stringify(req.body));
+  const user = await pool.query(
+    "SELECT * FROM Broomi.USER WHERE ID = ?",
+    req.body.ID
+  );
+
+  if (user[0].length > 0) {
+    if (user[0][0].PASS == req.body.PASS) {
+      state = true;
+      msg = "login >> okisbacon";
+      name = user[0][0].NAME;
+      status = 200;
     } else {
-      // 새로운 userId인 경우
-      const insertSql = `INSERT INTO users (userId, password) VALUES (?, ?)`;
-      db.query(insertSql, [userId, password], (err, result) => {
-        if (err) {
-          console.error(err);
-          return res.status(500).send("Server error");
-        }
-        res.send("Signup success");
-      });
+      msg = "login >> PW incorrect";
     }
+  }
+
+  logger.info(msg);
+
+  return res.json({
+    success: state,
+    index: index,
+    message: msg,
+    status: status,
+    name: name,
   });
 });
 
-// 로그인
-app.post("/login", (req, res) => {
-  const { userId, password } = req.body;
-  const sql = `SELECT * FROM users WHERE userId = ? AND password = ?`;
-  db.query(sql, [userId, password], (err, result) => {
-    if (err) {
-      console.error(err);
-      return res.status(500).send("Server error");
-    }
-    if (result.length === 0) {
-      return res.status(401).send("Invalid credentials");
-    }
-    res.send("Login success");
-  });
+//initialize a simple http server
+//const server = https.createServer(app);
+const server = https.createServer(credentials, app);
+
+//start our server
+server.listen(process.env.PORT || 8080, () => {
+  console.log(`Server started on port ${server.address().port} :)`);
 });
 
-io.on("connection", (socket) => {
-  console.log("클라이언트가 접속했습니다.");
+// initialize the WebSocket server instance
+const ws = new WebSocket.Server({ server });
 
-  // 주문 요청 처리
-  socket.on("order", () => {
-    queue.push(socket.id);
-    console.log("order!!!");
-    const waitingNumber = queue.length;
-    socket.emit("waiting", waitingNumber);
-    socket.broadcast.emit("update", queue);
-  });
+let orderList = [];
+let TurtleBot;
 
-  // 주문 취소 처리
-  socket.on("cancel", () => {
-    const index = queue.indexOf(socket.id);
-    if (index >= 0) {
-      queue.splice(index, 1);
-      console.log("cancel");
+// TurtleBot1:ready
+// TurtleBot1:running
+// TurtleBot1:done
+ws.on("connection", async (wss, req) => {
+  console.log("connection");
+  wss.on("message", (msg) => {
+    const data = msg.toString();
 
-      // 취소한 클라이언트의 대기순번 업데이트
-      socket.emit("waiting", 0);
-
-      // 취소한 클라이언트 뒤의 대기순번 감소
-      for (let i = index; i < queue.length; i++) {
-        io.to(queue[i]).emit("waiting", i + 1);
+    // turtle bot 구간
+    if (data.split(":")[0] === "TurtleBot1") {
+      TurtleBot = wss;
+      let data2 = data.split(":")[1];
+      console.log(data);
+      if (data2 === "Connection") {
+        // 연결 완료
+        TurtleBot.send(JSON.stringify(orderList));
+      } else if (data2 === "Ready") {
+        // 주문 접수 완료, 배달 시작
+        TurtleBot.send(JSON.stringify(orderList));
+      } else if (data2 === "Done") {
+        // 배달 완료, 앞 주문 빼고, 다음 주문 접수
+        orderList.pop(0);
+        ws.clients.forEach((client) => {
+          client.send(JSON.stringify(orderList), {
+            "Content-Type": "application/json",
+          });
+        });
+      } else {
+        // 지금 터틀봇 바쁨
+        console.log("Turtlebot is Running!");
       }
-
-      socket.broadcast.emit("update", queue);
+      return;
     }
+
+    // 음성파일 저장
+    if (Buffer.byteLength(msg) > 100) {
+      const lengthCheck = orderList.length - 1;
+      const filePath = "./public/audio/" + orderList[lengthCheck].name + ".wav"; // 음성파일 저장 경로
+      const fileName = filePath.substring(8);
+      fs.writeFile(filePath, msg, (err) => {
+        if (err) throw err;
+        console.log("The file has been saved!");
+      });
+
+      orderList[lengthCheck].record = fileName;
+      wss.send(JSON.stringify(orderList));
+      return;
+    }
+
+    if (data === "getOrderList") {
+      wss.send(JSON.stringify(orderList)); // 클라이언트에서 getOrderList를 요청하면 orderList를 보낸다
+      return;
+    }
+
+    const objData = JSON.parse(data);
+    // 무르기 버튼 클릭 시 아이템 제거
+    if (objData.action === "removeData") {
+      const name = objData.name;
+      const updatedList = orderList.filter((order) => order.name !== name);
+      const myData = orderList.filter((order) => order.name === name);
+      orderList = updatedList;
+      // 액션이 removeData일때 음성파일이 있으면
+      if (myData[0].record) {
+        const fileName = myData[0].record.slice(7);
+        const filePath = path.join(__dirname, "public", "audio", fileName);
+        fs.unlink(filePath, (err) => {
+          if (err) {
+            console.error(err);
+            return;
+          }
+        });
+      }
+    } else {
+      const data = {
+        name: objData.name,
+        from: objData.from,
+        to: objData.to,
+        record: "",
+      };
+      orderList.push(data);
+    }
+
+    // orderList가 업데이트 되면 연결된 모든 클라이언트에게 업데이트 된 orderList 뿌려주기
+    ws.clients.forEach((client) => {
+      client.send(JSON.stringify(orderList), {
+        "Content-Type": "application/json",
+      });
+    });
   });
 
-  // 클라이언트 접속 종료 처리
-  socket.on("disconnect", () => {
-    const index = queue.indexOf(socket.id);
-    if (index >= 0) {
-      queue.splice(index, 1);
-      socket.broadcast.emit("update", queue);
-    }
-    console.log("클라이언트가 접속을 종료했습니다.");
+  wss.on("close", () => {
+    console.log("WebSocket disconnected");
   });
-});
-
-server.listen(8080, () => {
-  console.log("서버가 시작되었습니다.");
 });
