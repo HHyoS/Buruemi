@@ -1,1 +1,3 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/DeleteEntity_Response.msg
+
+bool success                      # Return true if deletion is successful.
+string status_message             # Comments if available.

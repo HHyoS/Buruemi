@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples/include -I/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/include -I/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include -I/opt/ros/dashing/include 
+CXX_INCLUDES = -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples/include -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/include -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include -I/opt/ros/dashing/include 
 

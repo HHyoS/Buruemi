@@ -1,1 +1,2 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/DeleteEntity_Request.msg
+string name                       # Name of the Gazebo entity to be deleted. This can be either
+                                  # a model or a light.

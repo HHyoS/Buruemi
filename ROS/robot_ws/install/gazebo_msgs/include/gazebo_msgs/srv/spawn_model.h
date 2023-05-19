@@ -1,1 +1,12 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_c/gazebo_msgs/srv/spawn_model.h
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from gazebo_msgs:srv/SpawnModel.idl
+// generated code does not contain a copyright notice
+
+#ifndef GAZEBO_MSGS__SRV__SPAWN_MODEL_H_
+#define GAZEBO_MSGS__SRV__SPAWN_MODEL_H_
+
+#include "gazebo_msgs/srv/spawn_model__struct.h"
+#include "gazebo_msgs/srv/spawn_model__functions.h"
+#include "gazebo_msgs/srv/spawn_model__type_support.h"
+
+#endif  // GAZEBO_MSGS__SRV__SPAWN_MODEL_H_

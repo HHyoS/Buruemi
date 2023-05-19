@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wextra -Wpedantic -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -Dgazebo_msgs__rosidl_typesupport_c_EXPORTS
 
-CXX_INCLUDES = -I/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_typesupport_c -I/opt/ros/dashing/include -I/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_c 
+CXX_INCLUDES = -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_typesupport_c -I/opt/ros/dashing/include -I/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_c 
 

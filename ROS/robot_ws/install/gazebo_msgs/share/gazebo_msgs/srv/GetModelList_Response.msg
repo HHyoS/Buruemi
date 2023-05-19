@@ -1,1 +1,5 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/GetModelList_Response.msg
+
+std_msgs/Header header               # Standard metadata for higher-level stamped data types.
+                                     # * header.stamp Simulation time when data was collected.
+string[] model_names                 # list of models in the world
+bool success                         # return true if get successful

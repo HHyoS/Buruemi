@@ -1,8 +1,0 @@
-[ 10%] [32m[1mLinking CXX executable turtlebot3_gazebo[0m
-[ 30%] Built target turtlebot3_drive
-[ 50%] Built target obstacles
-[ 70%] Built target obstacle2
-[ 90%] Built target obstacle1
-CMakeFiles/turtlebot3_gazebo.dir/build.make:127: recipe for target 'turtlebot3_gazebo' failed
-CMakeFiles/Makefile2:247: recipe for target 'CMakeFiles/turtlebot3_gazebo.dir/all' failed
-Makefile:140: recipe for target 'all' failed

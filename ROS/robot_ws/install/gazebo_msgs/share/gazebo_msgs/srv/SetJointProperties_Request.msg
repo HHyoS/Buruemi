@@ -1,1 +1,2 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/SetJointProperties_Request.msg
+string joint_name                               # name of joint
+gazebo_msgs/ODEJointProperties ode_joint_config # access to ODE joint dynamics properties

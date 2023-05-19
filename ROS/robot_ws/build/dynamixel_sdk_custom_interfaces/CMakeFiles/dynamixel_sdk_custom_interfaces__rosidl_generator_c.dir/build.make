@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces
+CMAKE_SOURCE_DIR = /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces
+CMAKE_BINARY_DIR = /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend.make
@@ -74,8 +74,8 @@ rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position.h: rosidl_ad
 rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position.h: rosidl_adapter/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
 rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position.h: /opt/ros/dashing/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position.h: /opt/ros/dashing/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/dashing/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/dashing/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.h: rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.h
@@ -106,16 +106,16 @@ rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c
 
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.o: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.o: rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.o   -c /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.o   -c /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c
 
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c > CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c > CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.i
 
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c -o CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c -o CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.s
 
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c.o.requires:
 
@@ -130,16 +130,16 @@ CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_genera
 
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.o: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.o: rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.o   -c /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.o   -c /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c
 
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c > CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c > CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.i
 
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c -o CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c -o CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.s
 
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c.o.requires:
 
@@ -179,7 +179,7 @@ libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so: /opt/ros/dashing/lib/
 libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so: /opt/ros/dashing/lib/librosidl_typesupport_introspection_c.so
 libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so: /opt/ros/dashing/lib/librosidl_typesupport_introspection_cpp.so
 libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -206,6 +206,6 @@ CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend: rosid
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.h
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/set_position__functions.c
 CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/get_position__functions.c
-	cd /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces /home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces /home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces /home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces /home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/depend
 

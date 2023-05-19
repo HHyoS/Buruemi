@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp" "/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples/CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o"
+  "/home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp" "/home/iju/new_ws/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_examples/CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/iju/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples/include"
-  "/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/include"
-  "/home/iju/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include"
+  "/home/iju/new_ws/S08P31C208/ROS/robot_ws/src/DynamixelSDK/dynamixel_sdk_examples/include"
+  "/home/iju/new_ws/S08P31C208/ROS/robot_ws/install/dynamixel_sdk_custom_interfaces/include"
+  "/home/iju/new_ws/S08P31C208/ROS/robot_ws/install/dynamixel_sdk/include"
   "/opt/ros/dashing/include"
   )
 

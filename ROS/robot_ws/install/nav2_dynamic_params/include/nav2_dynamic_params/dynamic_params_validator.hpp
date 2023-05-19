@@ -1,1 +1,0 @@
-/home/iju/S08P31C208/ROS/robot_ws/src/navigation2/nav2_dynamic_params/include/nav2_dynamic_params/dynamic_params_validator.hpp

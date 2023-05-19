@@ -1,1 +1,10 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_generator_cpp/gazebo_msgs/srv/apply_body_wrench.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef GAZEBO_MSGS__SRV__APPLY_BODY_WRENCH_HPP_
+#define GAZEBO_MSGS__SRV__APPLY_BODY_WRENCH_HPP_
+
+#include "gazebo_msgs/srv/apply_body_wrench__struct.hpp"
+#include "gazebo_msgs/srv/apply_body_wrench__traits.hpp"
+
+#endif  // GAZEBO_MSGS__SRV__APPLY_BODY_WRENCH_HPP_

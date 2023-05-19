@@ -1,1 +1,2 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/GetLinkProperties_Request.msg
+string link_name          # name of link
+                          # link names are prefixed by model name, e.g. pr2::base_link

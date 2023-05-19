@@ -1,1 +1,1 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/JointRequest_Request.msg
+string joint_name   # name of the joint requested

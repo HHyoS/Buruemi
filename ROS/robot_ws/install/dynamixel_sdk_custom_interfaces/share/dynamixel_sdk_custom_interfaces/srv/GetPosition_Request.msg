@@ -1,1 +1,3 @@
-/home/iju/S08P31C208/ROS/robot_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Request.msg
+# Constants
+# Request
+uint8 id
